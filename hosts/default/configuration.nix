@@ -53,9 +53,11 @@
   services.xserver.displayManager.lightdm.enable = true;
   services.xserver.desktopManager.xfce.enable = true;
   
+  # KDE 
   #services.displayManager.sddm.enable = true;
   #services.desktopManager.plasma6.enable = true;
 
+  # Hyprland
   #programs.hyprland.enable = true;
   #programs.hyprland.package = inputs.hyprland.packages."${pkgs.system}".hyprland;
 
@@ -107,10 +109,10 @@
     description = "rip";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-    #  thunderbird
-       librewolf
-       alacritty
-       vscodium
+       #thunderbird
+       #librewolf
+       #alacritty
+       #vscodium
        #lutris
        #heroic
        #mangohud
@@ -144,7 +146,7 @@
    neovim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
    wget
    git
-   #keepassxc
+   keepassxc
    mpv
    ffmpeg
    yt-dlp
