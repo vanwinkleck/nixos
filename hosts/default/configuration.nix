@@ -50,11 +50,11 @@
   services.xserver.enable = true;
 
   # Enable the XFCE Desktop Environment.
-  #services.xserver.displayManager.lightdm.enable = true;
-  #services.xserver.desktopManager.xfce.enable = true;
+  services.xserver.displayManager.lightdm.enable = true;
+  services.xserver.desktopManager.xfce.enable = true;
   
-  services.displayManager.sddm.enable = true;
-  services.desktopManager.plasma6.enable = true;
+  #services.displayManager.sddm.enable = true;
+  #services.desktopManager.plasma6.enable = true;
 
   #programs.hyprland.enable = true;
   #programs.hyprland.package = inputs.hyprland.packages."${pkgs.system}".hyprland;
@@ -111,10 +111,10 @@
        librewolf
        alacritty
        vscodium
-       lutris
-       heroic
-       mangohud
-       vesktop
+       #lutris
+       #heroic
+       #mangohud
+       #vesktop
     ];
   };
 
@@ -132,19 +132,19 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   
-  programs.steam = {
-  	enable=true;
-	remotePlay.openFirewall = true;
-	dedicatedServer.openFirewall = true;
-	localNetworkGameTransfers.openFirewall = true;
-	};
+  #programs.steam = {
+  	#enable=true;
+	#remotePlay.openFirewall = true;
+	#dedicatedServer.openFirewall = true;
+	#localNetworkGameTransfers.openFirewall = true;
+	#};
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
    neovim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
    wget
    git
-   keepassxc
+   #keepassxc
    mpv
    ffmpeg
    yt-dlp
