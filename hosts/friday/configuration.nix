@@ -120,7 +120,6 @@
        #heroic
        #mangohud
        #vesktop
-       gnome.gnome-tweaks
     ];
   };
 
@@ -157,6 +156,7 @@
    scrot
    neofetch
    flatpak
+   pkgs.gnome-tweaks
    #waybar
    #dunst
    #swww
