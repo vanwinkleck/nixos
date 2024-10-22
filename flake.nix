@@ -10,7 +10,6 @@
      };
 
      nix-colors.url = "github:misterio77/nix-colors";
-
      #hyprland.url = "github:hyprwm/Hyprland";
      #hyprland-plugins = {
      #	url = "github:hyprwm/hyprland-plugins";
@@ -25,6 +24,14 @@
         ./hosts/default/configuration.nix
         inputs.home-manager.nixosModules.default
       ];
+    };
+
+    nixosConfigurations.despe = nixpkgs.lib.nixosSystem {
+     specialArgs = {inherit inputs;};
+     modules = [
+      ./hosts/despe/configuration.nix
+      inputs.home-manager.nixosModules.default
+     ];
     };
   };
 }
