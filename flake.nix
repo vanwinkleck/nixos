@@ -33,5 +33,13 @@
       inputs.home-manager.nixosModules.default
      ];
     };
+
+    nixosConfigurations.friday = nixpkgs.lib.nixosSystem {
+    	specialArgs = {inherit inputs;};
+	modules = [
+	 ./hosts/friday/configuration.nix
+	 inputs.home-manager.nixosModules.default
+	];
+       };
   };
 }
