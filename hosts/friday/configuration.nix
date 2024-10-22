@@ -120,6 +120,7 @@
        #heroic
        #mangohud
        #vesktop
+       gnome.gnome-tweaks
     ];
   };
 

@@ -24,6 +24,16 @@
       options = [ "fmask=0077" "dmask=0077" ];
     };
 
+  fileSystems."/mnt/reze" =
+    { device = "/dev/disk/by-uuid/26bcd4b6-84cc-4c9c-88ae-cf75236c6d01";
+      fsType = "ext4";
+    };
+
+  fileSystems."/mnt/makima" =
+    { device = "/dev/disk/by-uuid/E6FB-AEB8";
+      fsType = "exfat";
+    };
+
   swapDevices = [ ];
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
