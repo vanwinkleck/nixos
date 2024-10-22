@@ -12,9 +12,8 @@
     ];
 
   # Bootloader.
-  boot.loader.grub.enable = true;
-  boot.loader.grub.device = "/dev/vda";
-  boot.loader.grub.useOSProber = true;
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;
 
   networking.hostName = "friday"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -50,12 +49,12 @@
   services.xserver.enable = true;
 
   # Enable the XFCE Desktop Environment.
-  services.xserver.displayManager.lightdm.enable = true;
-  services.xserver.desktopManager.xfce.enable = true;
+  #services.xserver.displayManager.lightdm.enable = true;
+  #services.xserver.desktopManager.xfce.enable = true;
 
   # GNOME
-  #services.xserver.displayManager.gdm.enable = true;
-  #services.xserver.desktopManager.gnome.enable = true;
+  services.xserver.displayManager.gdm.enable = true;
+  services.xserver.desktopManager.gnome.enable = true;
 
   # KDE 
   #services.displayManager.sddm.enable = true;
@@ -138,12 +137,12 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   
-  #programs.steam = {
-  	#enable=true;
-	#remotePlay.openFirewall = true;
-	#dedicatedServer.openFirewall = true;
-	#localNetworkGameTransfers.openFirewall = true;
-	#};
+  programs.steam = {
+  	enable=true;
+	remotePlay.openFirewall = true;
+	dedicatedServer.openFirewall = true;
+	localNetworkGameTransfers.openFirewall = true;
+	};
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
