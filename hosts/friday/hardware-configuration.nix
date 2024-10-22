@@ -8,25 +8,20 @@
     [ (modulesPath + "/installer/scan/not-detected.nix")
     ];
 
-  boot.initrd.availableKernelModules = [ "nvme" "ahci" "xhci_pci" "usb_storage" "uas" "usbhid" "sd_mod" "sr_mod" ];
+  boot.initrd.availableKernelModules = [ "nvme" "ahci" "xhci_pci" "usb_storage" "usbhid" "sd_mod" "sr_mod" ];
   boot.initrd.kernelModules = [ ];
   boot.kernelModules = [ "kvm-amd" ];
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/6c2175e3-b460-4e0c-a8b5-ef96db9d834a";
+    { device = "/dev/disk/by-uuid/a6fca45f-5fa4-4ed3-8adf-a7379c4772df";
       fsType = "ext4";
     };
 
   fileSystems."/boot" =
-    { device = "/dev/disk/by-uuid/1403-8A55";
+    { device = "/dev/disk/by-uuid/C9FA-C60F";
       fsType = "vfat";
       options = [ "fmask=0077" "dmask=0077" ];
-    };
-
-  fileSystems."/mnt/reze" =
-    { device = "/dev/disk/by-uuid/26bcd4b6-84cc-4c9c-88ae-cf75236c6d01";
-      fsType = "ext4";
     };
 
   fileSystems."/mnt/makima" =
