@@ -8,7 +8,7 @@
     [ (modulesPath + "/installer/scan/not-detected.nix")
     ];
 
-  boot.initrd.availableKernelModules = [ "nvme" "ahci" "xhci_pci" "usb_storage" "usbhid" "sd_mod" "sr_mod" ];
+  boot.initrd.availableKernelModules = [ "nvme" "ahci" "xhci_pci" "usb_storage" "uas" "usbhid" "sd_mod" "sr_mod" ];
   boot.initrd.kernelModules = [ ];
   boot.kernelModules = [ "kvm-amd" ];
   boot.extraModulePackages = [ ];
@@ -27,6 +27,11 @@
   fileSystems."/mnt/makima" =
     { device = "/dev/disk/by-uuid/E6FB-AEB8";
       fsType = "exfat";
+    };
+
+  fileSystems."/mnt/asa" =
+    { device = "/dev/disk/by-uuid/04b1bf6e-a3fe-4700-b215-6b68c9090c60";
+      fsType = "ext4";
     };
 
   swapDevices = [ ];

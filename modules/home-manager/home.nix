@@ -73,6 +73,7 @@
     #hello
     alacritty
     librewolf
+    vesktop
     #pkgs.heroic
     #pkgs.lutris
     #pkgs.vscodium

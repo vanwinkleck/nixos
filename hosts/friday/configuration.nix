@@ -93,6 +93,20 @@
     #media-session.enable = true;
   };
 
+  fonts.packages = with pkgs; [
+  	noto-fonts
+  	noto-fonts-cjk
+  	noto-fonts-emoji
+  	liberation_ttf
+  	fira-code
+  	fira-code-symbols
+  	mplus-outline-fonts.githubRelease
+  	dina-font
+  	proggyfonts
+	cherry
+  ];
+
+
   hardware.bluetooth.enable = true;
 
   hardware.graphics = {
@@ -116,9 +130,9 @@
        #librewolf
        #alacritty
        #vscodium
-       #lutris
-       #heroic
-       #mangohud
+       lutris
+       heroic
+       mangohud 
        #vesktop
     ];
   };
@@ -131,7 +145,8 @@
 	};
 
   # Install firefox.
-  programs.firefox.enable = true;
+  #programs.firefox.enable = true;
+
   
 
   # Allow unfree packages
@@ -143,6 +158,18 @@
 	dedicatedServer.openFirewall = true;
 	localNetworkGameTransfers.openFirewall = true;
 	};
+
+  programs.firefox = {
+    enable = true;
+    package = pkgs.librewolf;
+    policies.ExtensionSettings = {
+        "uBlock0@raymondhill.net" = {
+            install_url = "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi";
+            installation_mode = "force_installed";
+        };
+
+    };
+};
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
@@ -153,7 +180,7 @@
    mpv
    ffmpeg
    yt-dlp
-   scrot
+   #scrot
    neofetch
    flatpak
    pkgs.gnome-tweaks
@@ -162,7 +189,14 @@
    #swww
    #kitty
    #rofi-wayland
-	
+   tokyonight-gtk-theme
+   tela-icon-theme
+   tela-circle-icon-theme
+   nordzy-icon-theme
+   kanagawa-icon-theme
+   kanagawa-gtk-theme
+   openzone-cursors
+
 
   ];
 
