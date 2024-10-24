@@ -1,0 +1,10 @@
+> neovim config
+
+> move to hyprland???
+  - if not, research gnome extensions and configuration
+
+> make secondary ssd work with steam
+
+> declaritive librewolf extensions
+
+
