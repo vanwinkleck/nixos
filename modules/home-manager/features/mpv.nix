@@ -47,7 +47,7 @@
 	screenshot-jpeg-quality = "95";
 
 	#Output directory
-	screenshot-dir="/home/rip/Pictures/screenshots/mpv";
+	screenshot-dir="/home/rip/Pictures/Screenshots/mpv";
 
 	#Name format you want to save the pictures
 	screenshot-template="%f-%wH.%wM.%wS.%wT-#%#00n";

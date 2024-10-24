@@ -32,12 +32,12 @@
       options = ["nofail" "uid=1000" "gid=1000" "dmask=007" "fmask=117" ];
     };
   
-  #fileSystems."/mnt/asa" = 
-  #{
-  # device= "/dev/disk/by-uuid/725b7ecc-220a-467f-a87b-980583709607";
-  # fsType = "ext4";
-   #options = [ "nofail" "uid=1000" "gid=1000" "dmask=007" "fmask=117" ];
-  #};
+  fileSystems."/mnt/asa" = 
+  {
+   device= "/dev/disk/by-uuid/725b7ecc-220a-467f-a87b-980583709607";
+   fsType = "ext4";
+   options = [ "nofail" "uid=1000" "gid=1000" "dmask=007" "fmask=117" ];
+  };
 
 
   # Set your time zone.
@@ -110,7 +110,7 @@
 
   fonts.packages = with pkgs; [
   	noto-fonts
-  	noto-fonts-cjk
+  	noto-fonts-cjk-sans
   	noto-fonts-emoji
   	liberation_ttf
   	fira-code
