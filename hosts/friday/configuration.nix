@@ -32,12 +32,12 @@
       options = ["nofail" "uid=1000" "gid=1000" "dmask=007" "fmask=117" ];
     };
   
-  fileSystems."/mnt/asa" = 
-  {
-   device= "/dev/disk/by-uuid/04b1bf6e-a3fe-4700-b215-6b68c9090c60";
-   fsType = "ext4";
-   options = [ "nofail" "uid=1000" "gid=1000" "dmask=007" "fmask=117" ];
-  };
+  #fileSystems."/mnt/asa" = 
+  #{
+  # device= "/dev/disk/by-uuid/725b7ecc-220a-467f-a87b-980583709607";
+  # fsType = "ext4";
+   #options = [ "nofail" "uid=1000" "gid=1000" "dmask=007" "fmask=117" ];
+  #};
 
 
   # Set your time zone.

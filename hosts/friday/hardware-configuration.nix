@@ -29,11 +29,6 @@
       fsType = "exfat";
     };
 
-  fileSystems."/mnt/asa" =
-    { device = "/dev/disk/by-uuid/04b1bf6e-a3fe-4700-b215-6b68c9090c60";
-      fsType = "ext4";
-    };
-
   swapDevices = [ ];
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
