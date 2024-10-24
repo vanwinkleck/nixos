@@ -25,6 +25,21 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+
+  fileSystems."/mnt/makima" =
+    { device = "/dev/disk/by-uuid/E6FB-AEB8";
+      fsType = "exfat";
+      options = ["nofail" "uid=1000" "gid=1000" "dmask=007" "fmask=117" ];
+    };
+  
+  fileSystems."/mnt/asa" = 
+  {
+   device= "/dev/disk/by-uuid/04b1bf6e-a3fe-4700-b215-6b68c9090c60";
+   fsType = "ext4";
+   options = [ "nofail" "uid=1000" "gid=1000" "dmask=007" "fmask=117" ];
+  };
+
+
   # Set your time zone.
   time.timeZone = "America/Chicago";
 
@@ -145,7 +160,7 @@
 	};
 
   # Install firefox.
-  #programs.firefox.enable = true;
+  programs.firefox.enable = true;
 
   
 
@@ -159,17 +174,17 @@
 	localNetworkGameTransfers.openFirewall = true;
 	};
 
-  programs.firefox = {
-    enable = true;
-    package = pkgs.librewolf;
-    policies.ExtensionSettings = {
-        "uBlock0@raymondhill.net" = {
-            install_url = "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi";
-            installation_mode = "force_installed";
-        };
+  #programs.firefox = {
+   # enable = true;
+    #package = pkgs.librewolf;
+    #policies.ExtensionSettings = {
+     #   "uBlock0@raymondhill.net" = {
+      #      install_url = "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi";
+       #     installation_mode = "force_installed";
+        #};
 
-    };
-};
+    #};
+#};
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
