@@ -34,9 +34,9 @@
   
   fileSystems."/mnt/asa" = 
   {
-   device= "/dev/disk/by-uuid/725b7ecc-220a-467f-a87b-980583709607";
+   device= "/dev/disk/by-uuid/4cd22232-9f91-4f7c-a878-3a4c386f39e5";
    fsType = "ext4";
-   options = [ "nofail" "uid=1000" "gid=1000" "dmask=007" "fmask=117" ];
+   options = [ "nofail" "rw" "user" "exec" ];#[ "nofail" "uid=1000" "gid=1000" "dmask=007" "fmask=117" ];
   };
 
 
@@ -147,7 +147,9 @@
        #vscodium
        lutris
        heroic
-       mangohud 
+       mangohud
+       gamescope
+       obs-studio
        #vesktop
     ];
   };
