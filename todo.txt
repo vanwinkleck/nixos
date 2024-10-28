@@ -3,7 +3,7 @@
 > move to hyprland???
   - if not, research gnome extensions and configuration
 
-> make secondary ssd work with steam
+> make secondary ssd work with steam * Done!
 
 > declaritive librewolf extensions
 

@@ -74,6 +74,7 @@
     alacritty
     librewolf
     vesktop
+    qbittorrent
     #pkgs.heroic
     #pkgs.lutris
     #pkgs.vscodium
