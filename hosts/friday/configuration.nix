@@ -119,8 +119,10 @@
   	dina-font
   	proggyfonts
 	cherry
-	#terminus-nerdfont
+	terminus_font
 	nerdfonts
+	#terminus-nerdfont
+	cozette
   ];
 
 
@@ -219,6 +221,7 @@
    kanagawa-icon-theme
    kanagawa-gtk-theme
    openzone-cursors
+   cozette
 
 
   ];

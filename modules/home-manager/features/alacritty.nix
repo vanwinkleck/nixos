@@ -3,6 +3,20 @@
  programs.alacritty.enable=true;
  programs.alacritty.settings = {
 
+ 	font = {
+		normal = {
+		family = "JetBrainsMono Nerd Font";
+		};
+
+		#bold = {
+		#family = "JetBrainsMono Nerd Font Bold";
+		#};
+
+		#italic = {
+		#family = "JetBrainsMono Nerd Font Light Italic";
+		#};
+
+	};
  	colors = with config.colorScheme.colors; {
 	 bright = { 
 		black = "0x${base00}";
