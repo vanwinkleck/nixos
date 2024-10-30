@@ -65,11 +65,20 @@
     history = {
     size = 10000;
     path = "${config.xdg.dataHome}/zsh/history";
-  };
+   };
 
+   oh-my-zsh = {
+    enable = true;
+    theme = "steeef";
+    plugins = ["git" "thefuck" "ufw" "starship" ];
+  };  
 };
+#  programs.zsh.ohMyZsh = {
+#    enable = true;
+#    plugins = ["git" "thefuck" "ufw"];
+#   theme = "steeef";
+#};
   
-
  # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.
@@ -90,6 +99,8 @@
     librewolf
     vesktop
     qbittorrent
+    thefuck
+    starship
     #pkgs.heroic
     #pkgs.lutris
     #pkgs.vscodium
