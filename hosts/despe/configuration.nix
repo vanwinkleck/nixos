@@ -122,11 +122,14 @@ fonts.packages = with pkgs; [
 	nerdfonts
   ];
 
+  programs.zsh.enable = true;
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.rip = {
     isNormalUser = true;
     description = "rip";
     extraGroups = [ "networkmanager" "wheel" ];
+    shell = pkgs.zsh;
     packages = with pkgs; [
        #thunderbird
        #librewolf
@@ -152,6 +155,7 @@ fonts.packages = with pkgs; [
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+
   
   #programs.steam = {
   	#enable=true;
