@@ -7,4 +7,6 @@
 
 > declaritive librewolf extensions
 
+>Zsh prompt? 
+
 
