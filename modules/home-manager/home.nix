@@ -60,8 +60,14 @@
 
    shellAliases = {
     ll = "ls -l";
-    update = "sudo nixos-rebuild switch";
+    ls = "ls -a --color=auto";
+    update = "sudo nixos-rebuild switch --flake /home/rip/nixos/#friday";
+    uflake = "sudo nix flake update";
+    edits = "cd /mnt/makima/Edits/";
+    gc = "git commit -m";
+    gp = "git push";
     };
+
     history = {
     size = 10000;
     path = "${config.xdg.dataHome}/zsh/history";
