@@ -105,6 +105,22 @@
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
+  
+  
+fonts.packages = with pkgs; [
+  	noto-fonts
+  	noto-fonts-cjk-sans
+  	noto-fonts-emoji
+  	liberation_ttf
+  	#fira-code
+  	#fira-code-symbols
+  	mplus-outline-fonts.githubRelease
+  	#dina-font
+  	#proggyfonts
+	cherry
+	#terminus-nerdfont
+	nerdfonts
+  ];
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.rip = {
