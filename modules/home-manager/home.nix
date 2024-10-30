@@ -5,6 +5,7 @@
  	inputs.nix-colors.homeManagerModules.default
 	./features/alacritty.nix
 	./features/mpv.nix
+	#./features/zsh.nix
  	];
 
 
@@ -78,13 +79,8 @@
     theme = "steeef";
     plugins = ["git" "thefuck" "ufw" "starship"];
 
-  };  
-};
-#  programs.zsh.ohMyZsh = {
-#    enable = true;
-#    plugins = ["git" "thefuck" "ufw"];
-#   theme = "steeef";
-#};
+   };  
+ };
   
  # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
