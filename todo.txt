@@ -9,6 +9,8 @@
 
 > Seperate out zsh aliases for desktop and laptop
 
+> Automate garbage collection and generation deletion (https://nixos.wiki/wiki/Storage_optimization)
+
 >Zsh prompt? * Done!
 
 
