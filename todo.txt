@@ -7,6 +7,8 @@
 
 > declaritive librewolf extensions
 
->Zsh prompt? 
+> Seperate out zsh aliases for desktop and laptop
+
+>Zsh prompt? * Done!
 
 
