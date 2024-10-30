@@ -70,7 +70,8 @@
    oh-my-zsh = {
     enable = true;
     theme = "steeef";
-    plugins = ["git" "thefuck" "ufw" "starship" ];
+    plugins = ["git" "thefuck" "ufw" "starship"];
+
   };  
 };
 #  programs.zsh.ohMyZsh = {

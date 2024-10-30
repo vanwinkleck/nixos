@@ -119,6 +119,8 @@
   	dina-font
   	proggyfonts
 	cherry
+	#terminus-nerdfont
+	nerdfonts
   ];
 
 
