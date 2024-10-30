@@ -105,7 +105,6 @@
     alacritty
     librewolf
     vesktop
-    oh-my-zsh
     qbittorrent
     thefuck
     starship

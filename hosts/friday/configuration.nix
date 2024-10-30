@@ -154,7 +154,7 @@
        mangohud
        gamescope
        obs-studio
-       oh-my-zsh
+       #oh-my-zsh
        #vesktop
     ];
   };
@@ -162,7 +162,7 @@
   home-manager = {
   	extraSpecialArgs = { inherit inputs; };
 	users = {
-		"rip" = import ../../modules/home-manager/home.nix;
+		"rip" = import ../../modules/home-manager/friday-home.nix;
 		};
 	};
 
