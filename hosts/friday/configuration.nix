@@ -101,7 +101,7 @@
     alsa.support32Bit = true;
     pulse.enable = true;
     # If you want to use JACK applications, uncomment this
-    jack.enable = true;
+    #jack.enable = true;
 
     # use the example session manager (no others are packaged yet so this is enabled by default,
     # no need to redefine it in your config for now)
@@ -156,6 +156,7 @@
        mangohud
        gamescope
        obs-studio
+       shotcut
        #oh-my-zsh
        #vesktop
     ];

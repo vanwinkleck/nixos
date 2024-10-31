@@ -81,7 +81,7 @@
    oh-my-zsh = {
     enable = true;
     theme = "steeef";
-    plugins = ["git" "thefuck" "ufw" "starship"];
+    plugins = ["git" "thefuck" "ufw" "starship" "tldr"];
 
    };  
  };
@@ -109,6 +109,7 @@
     qbittorrent
     thefuck
     starship
+    tldr
     #pkgs.heroic
     #pkgs.lutris
     #pkgs.vscodium
