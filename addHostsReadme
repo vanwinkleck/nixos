@@ -1,6 +1,0 @@
-How to add a new machine:
-
-add configuration to flake
-copy hardware config over (may need to make changes to configuration.nix based on hardware)
-add everything to git 
-rebuild
