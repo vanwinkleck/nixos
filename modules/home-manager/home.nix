@@ -60,17 +60,23 @@
   syntaxHighlighting.enable = true;
 
    shellAliases = {
+    # Misc
     ll = "ls -l";
     ls = "ls -a --color=auto";
 
+    # Nix commands 
     update = "sudo nixos-rebuild switch --flake /home/rip/nixos/#friday";
     uflake = "sudo nix flake update";
     ncg = "sudo nix-collect-garbage";
     opt = "sudo nix store optimise";
 
+    # Navigation
     edits = "cd /mnt/makima/Edits/";
+
+    # Git commands
     gc = "git commit -m";
-    gp = "git push";
+    gps = "git push";
+    gpl = "git pull"
     };
 
     history = {
