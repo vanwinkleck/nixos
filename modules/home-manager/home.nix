@@ -76,7 +76,7 @@
     # Git commands
     gc = "git commit -m";
     gps = "git push";
-    gpl = "git pull"
+    gpl = "git pull";
     };
 
     history = {
