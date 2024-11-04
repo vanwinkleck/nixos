@@ -147,18 +147,11 @@
     extraGroups = [ "networkmanager" "wheel" ];
     shell = pkgs.zsh;
     packages = with pkgs; [
-       #thunderbird
-       #librewolf
-       #alacritty
-       #vscodium
        lutris
        heroic
        mangohud
        gamescope
        obs-studio
-       #shotcut
-       #oh-my-zsh
-       #vesktop
 
     ];
   };
@@ -207,15 +200,17 @@
    ffmpeg
    yt-dlp
    zsh
-   #scrot
    neofetch
    flatpak
-   pkgs.gnome-tweaks
+   gnome-tweaks
+
+   # --Hyprland stuff--
    #waybar
    #dunst
    #swww
    #kitty
    #rofi-wayland
+
    tokyonight-gtk-theme
    tela-icon-theme
    tela-circle-icon-theme
@@ -223,8 +218,6 @@
    kanagawa-icon-theme
    kanagawa-gtk-theme
    openzone-cursors
-   cozette
-
 
   ];
 
