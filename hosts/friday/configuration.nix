@@ -156,9 +156,10 @@
        mangohud
        gamescope
        obs-studio
-       shotcut
+       #shotcut
        #oh-my-zsh
        #vesktop
+
     ];
   };
 

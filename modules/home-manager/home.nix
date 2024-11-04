@@ -65,7 +65,7 @@
     ls = "ls -a --color=auto";
 
     # Nix commands 
-    update = "sudo nixos-rebuild switch --flake /home/rip/nixos/#friday";
+    update = "sudo nixos-rebuild switch --flake /home/rip/nixos/";
     uflake = "sudo nix flake update";
     ncg = "sudo nix-collect-garbage";
     opt = "sudo nix store optimise";
