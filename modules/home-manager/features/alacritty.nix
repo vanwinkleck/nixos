@@ -3,6 +3,12 @@
  programs.alacritty.enable=true;
  programs.alacritty.settings = {
 
+ 	window = {
+
+		decorations = "Full";
+
+	};
+
  	font = {
 		normal = {
 		family = "JetBrainsMono Nerd Font";
