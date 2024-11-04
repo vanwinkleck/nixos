@@ -7,7 +7,7 @@
 
 > declaritive librewolf extensions
 
-> Seperate out zsh aliases for desktop and laptop
+> Seperate out zsh aliases for desktop and laptop -> Need seperate home manager profiles I believe.
 
 > Automate garbage collection and generation deletion (https://nixos.wiki/wiki/Storage_optimization)
 
