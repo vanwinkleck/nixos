@@ -151,7 +151,11 @@
        heroic
        mangohud
        gamescope
+
        obs-studio
+       openshot-qt
+       libsForQt5.libopenshot
+       libsForQt5.libopenshot-audio
 
     ];
   };
