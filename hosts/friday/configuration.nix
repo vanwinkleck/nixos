@@ -211,6 +211,9 @@
    flatpak
    gnome-tweaks
 
+   cmake
+   gcc
+
    # --Hyprland stuff--
    #waybar
    #dunst
