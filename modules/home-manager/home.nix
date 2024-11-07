@@ -73,6 +73,8 @@
 
     # Navigation
     edits = "cd /mnt/makima/Edits/";
+    dot = "cd /home/rip/.config/";
+    config = "cd /home/rip/nixos/";
 
     # Git commands
     gc = "git commit -m";
