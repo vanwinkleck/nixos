@@ -1,4 +1,4 @@
-> neovim config
+> neovim config * Kinda done
 
 > move to hyprland???
   - if not, research gnome extensions and configuration
@@ -12,5 +12,7 @@
 > Automate garbage collection and generation deletion (https://nixos.wiki/wiki/Storage_optimization)
 
 >Zsh prompt? * Done!
+
+> Add c/c++ LSP 
 
 
