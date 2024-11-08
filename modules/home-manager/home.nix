@@ -53,20 +53,22 @@
 
   };
 
-  programs.neovim = {
+  programs.neovim = 
 	let 
 		toLua = str: "lua << EOF\n${str}\nEOF\n";
 		toLuaFile = file: "lua << EOF\n${builtins.readFile file}\nEOF\n";
 	in
-
+	{
 	enable = true;
 
 	extraPackages = with pkgs; [
+		lua-language-server
+		#rnix-lsp
+
 		xclip
 		wl-clipboard
 
-		luajitPackages.lua-lisp
-		rnix-lsp
+		#luajitPackages.lua-lsp
 	];
 
 	viAlias = true;
@@ -82,7 +84,7 @@
 	plugins = with pkgs.vimPlugins; [
 	 {
         plugin = nvim-lspconfig;
-        config = toLuaFile ./nvim/plugin/lsp.lua;
+        config = toLuaFile ./features/nvim/plugin/lsp.lua;
       }
 
       {
@@ -97,15 +99,18 @@
 
       neodev-nvim
 
+      mason-nvim
+      mason-lspconfig-nvim
+
       nvim-cmp 
       {
         plugin = nvim-cmp;
-        config = toLuaFile ./nvim/plugin/cmp.lua;
+        config = toLuaFile ./features/nvim/plugin/cmp.lua;
       }
 
       {
         plugin = telescope-nvim;
-        config = toLuaFile ./nvim/plugin/telescope.lua;
+        config = toLuaFile ./features/nvim/plugin/telescope.lua;
       }
 
       telescope-fzf-native-nvim
@@ -120,17 +125,17 @@
       lualine-nvim
       nvim-web-devicons
 
-      {
-        plugin = (nvim-treesitter.withPlugins (p: [
-          p.tree-sitter-nix
-          p.tree-sitter-vim
-          p.tree-sitter-bash
-          p.tree-sitter-lua
-          p.tree-sitter-python
-          p.tree-sitter-json
-        ]));
-        config = toLuaFile ./nvim/plugin/treesitter.lua;
-      }
+          #{
+          #plugin = (nvim-treesitter.withPlugins (p: [
+          #p.tree-sitter-nix
+          #p.tree-sitter-vim
+          #p.tree-sitter-bash
+          #p.tree-sitter-lua
+          #p.tree-sitter-python
+          #p.tree-sitter-json
+          #]));
+        # config = toLuaFile ./features/nvim/plugin/treesitter.lua;
+        #}
 
       vim-nix
 
