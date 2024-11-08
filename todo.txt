@@ -2,6 +2,7 @@
 
 > move to hyprland???
   - if not, research gnome extensions and configuration
+  - seperate hyprland into module so I can still use gnome on desktop
 
 > make secondary ssd work with steam * Done!
 
