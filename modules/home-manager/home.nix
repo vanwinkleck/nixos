@@ -68,7 +68,7 @@
 		xclip
 		wl-clipboard
 
-		#luajitPackages.lua-lsp
+		luajitPackages.lua-lsp
 	];
 
 	viAlias = true;
@@ -125,17 +125,17 @@
       lualine-nvim
       nvim-web-devicons
 
-          #{
-          #plugin = (nvim-treesitter.withPlugins (p: [
-          #p.tree-sitter-nix
-          #p.tree-sitter-vim
-          #p.tree-sitter-bash
-          #p.tree-sitter-lua
-          #p.tree-sitter-python
-          #p.tree-sitter-json
-          #]));
-        # config = toLuaFile ./features/nvim/plugin/treesitter.lua;
-        #}
+        {
+          plugin = (nvim-treesitter.withPlugins (p: [
+          p.tree-sitter-nix
+          p.tree-sitter-vim
+          p.tree-sitter-bash
+          p.tree-sitter-lua
+          p.tree-sitter-python
+          p.tree-sitter-json
+          ]));
+         config = toLuaFile ./features/nvim/plugin/treesitter.lua;
+        }
 
       vim-nix
 
