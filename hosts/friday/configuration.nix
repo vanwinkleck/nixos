@@ -220,6 +220,8 @@
    #swww
    #kitty
    #rofi-wayland
+   #thunar
+
 
    tokyonight-gtk-theme
    tela-icon-theme
