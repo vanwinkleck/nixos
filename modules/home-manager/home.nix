@@ -118,12 +118,17 @@
       cmp_luasnip
       cmp-nvim-lsp
 
+
       luasnip
       friendly-snippets
 
 
       lualine-nvim
       nvim-web-devicons
+
+      vim-clang-format
+      clangd_extensions-nvim
+      clang_complete
 
         {
           plugin = (nvim-treesitter.withPlugins (p: [

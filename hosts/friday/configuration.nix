@@ -213,6 +213,11 @@
 
    cmake
    gcc
+   #llvm_18
+   clang
+   #libcxx
+   #libclang
+   #clang-tools
 
    # --Hyprland stuff--
    #waybar

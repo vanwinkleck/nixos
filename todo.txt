@@ -14,6 +14,6 @@
 
 >Zsh prompt? * Done!
 
-> Add c/c++ LSP 
+> Add c/c++ LSP  - Kinda working, need to fix. (No completion or snippets somehow?)
 
 
