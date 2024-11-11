@@ -135,6 +135,8 @@
       clangd_extensions-nvim
       clang_complete
 
+      zig-vim  
+
         {
           plugin = (nvim-treesitter.withPlugins (p: [
           p.tree-sitter-nix
@@ -143,6 +145,7 @@
           p.tree-sitter-lua
           p.tree-sitter-python
           p.tree-sitter-json
+          p.tree-sitter-zig
           ]));
          config = toLuaFile ./features/nvim/plugin/treesitter.lua;
         }

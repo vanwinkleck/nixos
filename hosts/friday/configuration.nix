@@ -219,6 +219,8 @@
    #libclang
    #clang-tools
 
+   zig
+
    # --Hyprland stuff--
    #waybar
    #dunst
