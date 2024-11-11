@@ -53,6 +53,11 @@
 
   };
 
+  programs.vscode = {
+    enable = true;
+    package = pkgs.vscodium.fhs;
+  };
+
   programs.neovim = 
 	let 
 		toLua = str: "lua << EOF\n${str}\nEOF\n";
