@@ -133,9 +133,9 @@
 
       vim-clang-format
       clangd_extensions-nvim
-      clang_complete
+      #clang_complete
 
-      zig-vim  
+      zig-vim 
 
         {
           plugin = (nvim-treesitter.withPlugins (p: [

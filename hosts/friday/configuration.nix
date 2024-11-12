@@ -220,6 +220,8 @@
    clang
 
    zig
+   zls
+
 
    # --Hyprland stuff--
    #waybar
