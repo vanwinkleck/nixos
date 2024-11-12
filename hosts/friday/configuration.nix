@@ -214,10 +214,10 @@
    cmake
    gcc
    #llvm_18
-   clang
+   clang-tools
    #libcxx
    #libclang
-   #clang-tools
+   clang
 
    zig
 
