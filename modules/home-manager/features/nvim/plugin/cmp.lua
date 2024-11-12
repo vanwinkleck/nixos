@@ -43,6 +43,5 @@ cmp.setup {
         { name = 'nvim_lsp' },
         { name = 'luasnip' },
 		{ name = 'clangd_extensions' },
-		{ name = 'zig-vim' },
     },
 }
