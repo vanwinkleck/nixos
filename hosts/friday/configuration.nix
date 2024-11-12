@@ -154,7 +154,7 @@
 
        obs-studio
 
-       #openshot-qt
+      #openshot-qt
        #libsForQt5.libopenshot
        #libsForQt5.libopenshot-audio
 
@@ -221,6 +221,10 @@
 
    zig
    zls
+
+    #openshot-qt
+    #libsForQt5.libopenshot
+    #libsForQt5.libopenshot-audio
 
 
    # --Hyprland stuff--
