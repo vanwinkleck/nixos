@@ -42,6 +42,7 @@ cmp.setup {
     sources = {
         { name = 'nvim_lsp' },
         { name = 'luasnip' },
-		{ name = 'clangd_extensions' },
+		{ name = 'clangd' },
+		{ name = 'zls' },
     },
 }
