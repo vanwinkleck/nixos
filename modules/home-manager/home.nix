@@ -47,7 +47,7 @@
 	userName = "vanwinkleck";
 	userEmail = "vanwinkleck@protonmail.com";
 	extraConfig = {
-	 init.defaultBranch = "main";
+	 init.defaultBranch = "master";
 
 	};
 
