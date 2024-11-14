@@ -224,6 +224,8 @@
    zig
    zls
 
+   docker
+   docker-compose
     #openshot-qt
     #libsForQt5.libopenshot
     #libsForQt5.libopenshot-audio
