@@ -226,6 +226,7 @@
 
    docker
    docker-compose
+   dbeaver-bin
     #openshot-qt
     #libsForQt5.libopenshot
     #libsForQt5.libopenshot-audio
