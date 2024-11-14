@@ -218,6 +218,8 @@
    #libcxx
    #libclang
    clang
+   glfw
+
 
    zig
    zls
