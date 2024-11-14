@@ -7,7 +7,11 @@
      home-manager = {
        url = "github:nix-community/home-manager";
        inputs.nixpkgs.follows = "nixpkgs";
-     };
+    };
+
+    nixcord = {
+      url = "github:kaylorben/nixcord";
+    };
 
      nix-colors.url = "github:misterio77/nix-colors";
      hyprland.url = "github:hyprwm/Hyprland";

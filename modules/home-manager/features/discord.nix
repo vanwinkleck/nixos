@@ -8,34 +8,36 @@
     vesktop = {
       enable = true;
       package = pkgs.vesktop.overrideAttrs (oldAttrs: {
+        #icon = "discord";
         desktopItems = [
-          (pkgs.makeDesktopItem {
-            name = "vesktop";
-            desktopName = "Discord";
-            exec = "mullvad-exclude vesktop --enable-features=VaapiIgnoreDriverChecks,VaapiVideoEncoder,VaapiVideoDecoder,CanvasOopRasterization,UseMultiPlaneFormatForHardwareVideo";
-            icon = "discord";
-            startupWMClass = "VencordDesktop";
-            genericName = "Internet Messenger";
-            keywords = [
-              "discord"
-              "vencord"
-              "electron"
-              "chat"
-            ];
-            categories = [
-              "Network"
-              "InstantMessaging"
-              "Chat"
-            ];
-          })
+         (pkgs.makeDesktopItem {
+           name = "vesktop";
+           desktopName = "Discord";
+           exec = "vesktop --enable-features=VaapiIgnoreDriverChecks,VaapiVideoEncoder,VaapiVideoDecoder,CanvasOopRasterization,UseMultiPlaneFormatForHardwareVideo";
+           icon = "discord";
+            #startupWMClass = "VencordDesktop";
+        #   genericName = "Internet Messenger";
+        #   keywords = [
+        #       "discord"
+        #     "vencord"
+        #     "electron"
+        #     "chat"
+        #   ];
+            #categories = [
+            # "Network"
+            # "InstantMessaging"
+            # "Chat"
+            #];
+           })
         ];
       });
     };
     config = {
-      # themeLinks = [
-      #  "https://raw.githubusercontent.com/ardishco-the-great/catpuccin-discord/main/themes/frappe.theme.css"
-      #];
-      frameless = true;
+      themeLinks = [
+        "https://raw.githubusercontent.com/Dyzean/Tokyo-Night/main/themes/tokyo-night.theme.css"
+      ];
+      frameless = false;
+      
       plugins = {
         alwaysTrust.enable = true;
         anonymiseFileNames = {
@@ -65,7 +67,7 @@
         favoriteGifSearch.enable = true;
         fixSpotifyEmbeds.enable = true;
         fixYoutubeEmbeds.enable = true;
-        forceOwnerCrown.enable = true;
+        #forceOwnerCrown.enable = true;
         friendInvites.enable = true;
         friendsSince.enable = true;
         fullSearchContext.enable = true;
@@ -74,7 +76,7 @@
         gifPaste.enable = true;
         imageZoom.enable = true;
         loadingQuotes.enable = true;
-        memberCount.enable = true;
+        #memberCount.enable = true;
         messageClickActions.enable = true;
         messageLogger = {
           enable = true;
@@ -94,7 +96,7 @@
         };
         noDevtoolsWarning.enable = true;
         noF1.enable = true;
-        noReplyMention.enable = true;
+        #noReplyMention.enable = true;
         noProfileThemes.enable = true;
         noUnblockToJump.enable = true;
         openInApp.enable = true;
@@ -132,7 +134,7 @@
         voiceMessages.enable = true;
         volumeBooster.enable = true;
         webKeybinds.enable = true;
-        webRichPresence.enable = true;
+        #webRichPresence.enable = true;
         whoReacted.enable = true;
         youtubeAdblock.enable = true;
       };

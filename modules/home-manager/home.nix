@@ -217,7 +217,7 @@
     #hello
     alacritty
     librewolf
-    vesktop
+    #vesktop
     oh-my-zsh
     qbittorrent
     thefuck
