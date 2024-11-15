@@ -44,7 +44,8 @@
   home.homeDirectory = "/home/rip";
 
   programs.git = {
-	enable = true;
+    enable = true;
+    lfs.enable = true;
 	userName = "vanwinkleck";
 	userEmail = "vanwinkleck@protonmail.com";
 	extraConfig = {

@@ -24,7 +24,9 @@
 
   # Enable networking
   networking.networkmanager.enable = true;
-
+  
+  virtualisation.docker.enable = true;
+  
 
   fileSystems."/mnt/makima" =
     { device = "/dev/disk/by-uuid/E6FB-AEB8";
@@ -144,7 +146,7 @@
   users.users.rip = {
     isNormalUser = true;
     description = "rip";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     shell = pkgs.zsh;
     packages = with pkgs; [
        lutris
@@ -200,6 +202,7 @@
    neovim 
    wget
    git
+   git-lfs
    keepassxc
 
    mpv
@@ -227,6 +230,7 @@
    docker
    docker-compose
    dbeaver-bin
+   mysql_jdbc
     #openshot-qt
     #libsForQt5.libopenshot
     #libsForQt5.libopenshot-audio
