@@ -13,32 +13,6 @@
 
   colorScheme = inputs.nix-colors.colorSchemes.tokyo-night-terminal-dark;
   
-  #wayland.windowManager.hyprland = {
-  #	enable = true;
-
-	#plugins = [
-#		   inputs.hyprland.plugins.packages."${pkgs.system}".border-plus-plus
-#		  ];
-
-#	settings = {
-
-#			general = with config.colorScheme.colors; {
-#				"col.active_border" = "rgba(${base0E}ff) rgba(${base09}ff) 60deg";
-#				"col.inactive_border" = "rgba($base00}ff";
-#				};
-#		"plugin:borders-plus-plus" = {
-#			add_borders =  1;
-#
-#			"col.border_1" = "rgb(ffffff)";
-#			"col.border_2" = "rgb(2222ff)";
-#
-#			border_size_1 = 10;
-#			border_size_2 = -1;
-#
-#			natural_rounding = "yes";
-		#};
-#	};
-#  };
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "rip";
@@ -61,103 +35,6 @@
     package = pkgs.vscodium.fhs;
   };
 
-  # programs.neovim = 
-  #	let 
-  #		toLua = str: "lua << EOF\n${str}\nEOF\n";
-  #		toLuaFile = file: "lua << EOF\n${builtins.readFile file}\nEOF\n";
-  #	in
-  #	{
-  #	enable = true;
-  #
-  #	extraPackages = with pkgs; [
-  #		lua-language-server
-  #		#rnix-lsp
-  #
-  #		xclip
-  #		wl-clipboard
-  #
-  #		luajitPackages.lua-lsp
-  #	];
-
-  #	viAlias = true;
-  #	vimAlias = true;
-  #	vimdiffAlias = true;
-
-  #	extraLuaConfig = ''
-
-  #	${builtins.readFile ./features/nvim/options.lua}
-
-  #	'';
-
-  #	plugins = with pkgs.vimPlugins; [
-  #	 {
-  #     plugin = nvim-lspconfig;
-  #     config = toLuaFile ./features/nvim/plugin/lsp.lua;
-  #   }
-  #
-  #   {
-  #     plugin = comment-nvim;
-  #     config = toLua "require(\"Comment\").setup()";
-  #   }
-
-  #   {
-  #     plugin = tokyonight-nvim;
-  #     config = "colorscheme tokyonight-night";
-  #   }
-
-  #   neodev-nvim
-
-  #   mason-nvim
-  #   mason-lspconfig-nvim
-
-  #   nvim-cmp 
-  #   {
-  #    plugin = nvim-cmp;
-  #     config = toLuaFile ./features/nvim/plugin/cmp.lua;
-  #   }
-
-  #   {
-  #     plugin = telescope-nvim;
-  #     config = toLuaFile ./features/nvim/plugin/telescope.lua;
-  #   }
-
-  #   telescope-fzf-native-nvim
-
-  #   cmp_luasnip
-  #   cmp-nvim-lsp
-
-
-  #   luasnip
-  #   friendly-snippets
-
-
-  #   lualine-nvim
-  #   nvim-web-devicons
-
-  #   vim-clang-format
-  #   clangd_extensions-nvim
-      #clang_complete
-
-  #   zig-vim 
-
-  #     {
-  #       plugin = (nvim-treesitter.withPlugins (p: [
-  #       p.tree-sitter-nix
-  #       p.tree-sitter-vim
-  #         p.tree-sitter-bash
-  #       p.tree-sitter-lua
-  #       p.tree-sitter-python
-  #       p.tree-sitter-json
-  #       p.tree-sitter-zig
-  #       ]));
-  #      config = toLuaFile ./features/nvim/plugin/treesitter.lua;
-  #     }
-
-  #   vim-nix
-
-  #	];
-
-  #};
 
  # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
@@ -174,19 +51,13 @@
   home.packages = with pkgs; [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
-    #hello
     alacritty
     librewolf
-    #vesktop
     oh-my-zsh
     qbittorrent
     thefuck
     starship
     tldr
-    #pkgs.heroic
-    #pkgs.lutris
-    #pkgs.vscodium
-    #pkgs.mangohud
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
