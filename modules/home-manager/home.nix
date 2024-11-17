@@ -7,7 +7,7 @@
     ./features/mpv.nix
     ./features/discord.nix
     ./features/zsh.nix
-    ./features/nvim/nvim.nix
+    ./features/nvim/neovim.nix
  	];
 
 

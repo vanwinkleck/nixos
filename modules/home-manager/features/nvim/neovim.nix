@@ -25,14 +25,14 @@
 
 	extraLuaConfig = ''
 
-	${builtins.readFile ./features/nvim/options.lua}
+	${builtins.readFile ./options.lua}
 
 	'';
 
 	plugins = with pkgs.vimPlugins; [
 	 {
         plugin = nvim-lspconfig;
-        config = toLuaFile ./features/nvim/plugin/lsp.lua;
+        config = toLuaFile ./plugin/lsp.lua;
       }
 
       {
@@ -53,12 +53,12 @@
       nvim-cmp 
       {
         plugin = nvim-cmp;
-        config = toLuaFile ./features/nvim/plugin/cmp.lua;
+        config = toLuaFile ./plugin/cmp.lua;
       }
 
       {
         plugin = telescope-nvim;
-        config = toLuaFile ./features/nvim/plugin/telescope.lua;
+        config = toLuaFile ./plugin/telescope.lua;
       }
 
       telescope-fzf-native-nvim
@@ -90,7 +90,7 @@
           p.tree-sitter-json
           p.tree-sitter-zig
           ]));
-         config = toLuaFile ./features/nvim/plugin/treesitter.lua;
+         config = toLuaFile ./plugin/treesitter.lua;
         }
 
       vim-nix
