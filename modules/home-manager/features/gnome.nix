@@ -10,7 +10,7 @@
 
   theme = {
     name = "Tokyonight-dark";
-    package = "tokyonight-gtk-theme";
+    package = pkgs.tokyonight-gtk-theme;
   };
 
 

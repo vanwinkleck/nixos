@@ -23,6 +23,9 @@ programs.zsh = {
     dot = "cd /home/rip/.config/";
     config = "cd /home/rip/nixos/";
 
+    # FFMPEG
+      #mp4 = "ffmpeg -i $input.mp4 -c:v libx264 -crf $quality -preset slow -vf format=yuv420p -c:a aac -movflags +faststart $output.mp4";
+
     # Git commands
     gc = "git commit -m";
     gps = "git push";
