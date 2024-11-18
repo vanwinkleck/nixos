@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, ... }:
+{ pkgs, inputs, ... }:
 
 {
  imports = [
@@ -25,7 +25,6 @@
 	userEmail = "vanwinkleck@protonmail.com";
 	extraConfig = {
 	 init.defaultBranch = "master";
-
 	};
 
   };

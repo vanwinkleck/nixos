@@ -4,9 +4,7 @@
  programs.alacritty.settings = {
 
  	window = {
-
 		decorations = "Full";
-
 	};
 
  	font = {
@@ -20,7 +18,7 @@
 
 		#italic = {
 		#family = "JetBrainsMono Nerd Font Light Italic";
-		#};
+      #};
 
 	};
  	colors = with config.colorScheme.palette; {
