@@ -53,8 +53,10 @@
     # # "Hello, world!" when run.
     alacritty
     librewolf
-    oh-my-zsh
     qbittorrent
+    waydroid
+
+    oh-my-zsh
     thefuck
     starship
     tldr
