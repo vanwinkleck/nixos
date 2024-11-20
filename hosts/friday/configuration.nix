@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
+      ../../modules/system/fonts.nix
     ];
 
   # Bootloader.
@@ -111,22 +112,22 @@
     #media-session.enable = true;
   };
 
-  fonts.packages = with pkgs; [
-  	noto-fonts
-  	noto-fonts-cjk-sans
-  	noto-fonts-emoji
-  	liberation_ttf
-  	fira-code
-  	fira-code-symbols
-  	mplus-outline-fonts.githubRelease
-  	dina-font
-  	proggyfonts
-	cherry
-	terminus_font
-	nerdfonts
+  #fonts.packages = with pkgs; [
+  # 	noto-fonts
+  #	noto-fonts-cjk-sans
+  #	noto-fonts-emoji
+  #	liberation_ttf
+  #	fira-code
+  #	fira-code-symbols
+  #	mplus-outline-fonts.githubRelease
+  #	dina-font
+  #	proggyfonts
+  #	cherry
+  #	terminus_font
+  #	nerdfonts
 	#terminus-nerdfont
-	cozette
-  ];
+  #	cozette
+  #];
 
 
   hardware.bluetooth.enable = true;

@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
+      ../../modules/system/fonts.nix
       #./../../modules/home-manager/features/hyprland.nix
     ];
 
@@ -108,20 +109,6 @@
   # services.xserver.libinput.enable = true;
   
   
-fonts.packages = with pkgs; [
-  	noto-fonts
-  	noto-fonts-cjk-sans
-  	noto-fonts-emoji
-  	liberation_ttf
-  	fira-code
-  	fira-code-symbols
-  	#mplus-outline-fonts.githubRelease
-  	#dina-font
-  	#proggyfonts
-	#cherry
-	#terminus-nerdfont
-	nerdfonts
-  ];
 
   programs.zsh.enable = true;
 
@@ -131,16 +118,6 @@ fonts.packages = with pkgs; [
     description = "rip";
     extraGroups = [ "networkmanager" "wheel" ];
     shell = pkgs.zsh;
-    packages = with pkgs; [
-       #thunderbird
-       #librewolf
-       #alacritty
-       #vscodium
-       #lutris
-       #heroic
-       #mangohud
-       #vesktop
-    ];
   };
 
   home-manager = {
@@ -178,12 +155,12 @@ fonts.packages = with pkgs; [
    neofetch
    flatpak
     
-   waybar
-   dunst
-   swww
-   kitty
-   rofi-wayland
-   xfce.thunar
+    #waybar
+    # dunst
+    #swww
+    #kitty
+    #rofi-wayland
+    #xfce.thunar
 	
 
   ];
