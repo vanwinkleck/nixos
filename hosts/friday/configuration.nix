@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
       ../../modules/system/fonts.nix
+      ../../modules/system/virtualisation.nix
     ];
 
   # Bootloader.
@@ -26,8 +27,8 @@
   # Enable networking
   networking.networkmanager.enable = true;
   
-  virtualisation.docker.enable = true;
-  virtualisation.waydroid.enable = true;
+  #virtualisation.docker.enable = true;
+  #virtualisation.waydroid.enable = true;
   
 
   fileSystems."/mnt/makima" =
@@ -155,6 +156,7 @@
        heroic
        mangohud
        gamescope
+       waydroid
 
        obs-studio
 

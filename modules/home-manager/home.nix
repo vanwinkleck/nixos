@@ -54,7 +54,7 @@
     alacritty
     librewolf
     qbittorrent
-    waydroid
+    #waydroid
 
     oh-my-zsh
     thefuck
