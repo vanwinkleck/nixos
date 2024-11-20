@@ -16,4 +16,4 @@
 
 > Add c/c++ LSP  - Kinda working, need to fix. (No completion or snippets somehow?)
 
-
+> Make a dev environment for openGL
