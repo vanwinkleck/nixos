@@ -11,6 +11,7 @@
       inputs.home-manager.nixosModules.default
       ../../modules/system/fonts.nix
       ../../modules/system/virtualisation.nix
+      ../../modules/system/steam.nix
       #../../modules/system/gnome.nix
     ];
 
@@ -69,17 +70,9 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
-  # Enable the XFCE Desktop Environment.
-  #services.xserver.displayManager.lightdm.enable = true;
-  #services.xserver.desktopManager.xfce.enable = true;
-
   # GNOME
   services.xserver.displayManager.gdm.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
-
-  # KDE 
-  #services.displayManager.sddm.enable = true;
-  #services.desktopManager.plasma6.enable = true;
 
   # Hyprland
   #programs.hyprland.enable = true;
@@ -114,30 +107,12 @@
     #media-session.enable = true;
   };
 
-  #fonts.packages = with pkgs; [
-  # 	noto-fonts
-  #	noto-fonts-cjk-sans
-  #	noto-fonts-emoji
-  #	liberation_ttf
-  #	fira-code
-  #	fira-code-symbols
-  #	mplus-outline-fonts.githubRelease
-  #	dina-font
-  #	proggyfonts
-  #	cherry
-  #	terminus_font
-  #	nerdfonts
-	#terminus-nerdfont
-  #	cozette
-  #];
-
 
   hardware.bluetooth.enable = true;
 
   hardware.graphics = {
-	enable = true;
-	#driSupport = true;
-	#driSupport32Bit = true;
+    enable = true;
+    enable32Bit = true;
   };
 
   # services.xserver.videoDrivers = ["amdgpu"];
@@ -181,12 +156,15 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   
-  programs.steam = {
-  	enable=true;
-	remotePlay.openFirewall = true;
-	dedicatedServer.openFirewall = true;
-	localNetworkGameTransfers.openFirewall = true;
-	};
+  #  programs.steam = {
+  #  	enable=true;
+  #remotePlay.openFirewall = true;
+  #	dedicatedServer.openFirewall = true;
+  # localNetworkGameTransfers.openFirewall = true;
+  # gamescopeSession.enable = true;
+  #};
+
+  programs.gamemode.enable = true;
 
   #programs.firefox = {
    # enable = true;
