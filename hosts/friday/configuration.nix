@@ -11,6 +11,7 @@
       inputs.home-manager.nixosModules.default
       ../../modules/system/fonts.nix
       ../../modules/system/virtualisation.nix
+      ../../modules/system/gnome.nix
     ];
 
   # Bootloader.
