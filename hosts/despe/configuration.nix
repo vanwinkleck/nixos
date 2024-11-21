@@ -58,10 +58,6 @@
   #services.xserver.displayManager.gdm.enable = true;
   #services.xserver.desktopManager.gnome.enable = true;
 
-  # KDE 
-  #services.displayManager.sddm.enable = true;
-  #services.desktopManager.plasma6.enable = true;
-
   # Hyprland
   #programs.hyprland.enable = true;
   #programs.hyprland.package = inputs.hyprland.packages."${pkgs.system}".hyprland;
