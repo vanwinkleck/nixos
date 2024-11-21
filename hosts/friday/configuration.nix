@@ -115,7 +115,7 @@
     enable32Bit = true;
   };
 
-  # services.xserver.videoDrivers = ["amdgpu"];
+  services.xserver.videoDrivers = ["amdgpu"];
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
@@ -130,8 +130,6 @@
     packages = with pkgs; [
        lutris
        heroic
-       mangohud
-       gamescope
        obs-studio
 
       #openshot-qt
@@ -156,62 +154,43 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   
-  #  programs.steam = {
-  #  	enable=true;
-  #remotePlay.openFirewall = true;
-  #	dedicatedServer.openFirewall = true;
-  # localNetworkGameTransfers.openFirewall = true;
-  # gamescopeSession.enable = true;
-  #};
 
-  programs.gamemode.enable = true;
-
-  #programs.firefox = {
-   # enable = true;
-    #package = pkgs.librewolf;
-    #policies.ExtensionSettings = {
-     #   "uBlock0@raymondhill.net" = {
-      #      install_url = "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi";
-       #     installation_mode = "force_installed";
-        #};
-
-    #};
-#};
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-   neovim 
-   wget
-   git
-   git-lfs
-   keepassxc
+    neovim 
+    wget
+    git
+    git-lfs
+    keepassxc
 
-   mpv
-   ffmpeg
-   yt-dlp
+    gamemode
+    mangohud
+    gamescope
 
-   zsh
-   neofetch
-   flatpak
-   gnome-tweaks
+    mpv
+    ffmpeg
+    yt-dlp
 
-   cmake
-   gcc
-   #llvm_18
-   clang-tools
-   #libcxx
-   #libclang
-   clang
-   glfw
+    zsh
+    neofetch
+    flatpak
+    gnome-tweaks
+
+    cmake
+    gcc
+    clang-tools
+    clang
+    glfw
 
 
-   zig
-   zls
+    zig
+    zls
 
-   docker
-   docker-compose
-   dbeaver-bin
-   mysql_jdbc
+    docker
+    docker-compose
+    dbeaver-bin
+    mysql_jdbc
 
     virtualbox
     #openshot-qt
@@ -220,21 +199,21 @@
 
 
    # --Hyprland stuff--
-   #waybar
-   #dunst
-   #swww
-   #kitty
-   #rofi-wayland
-   #thunar
+    #waybar
+    #dunst
+    #swww
+    #kitty
+    #rofi-wayland
+    #thunar
 
 
-   tokyonight-gtk-theme
-   tela-icon-theme
-   tela-circle-icon-theme
-   nordzy-icon-theme
-   kanagawa-icon-theme
-   kanagawa-gtk-theme
-   openzone-cursors
+    tokyonight-gtk-theme
+    tela-icon-theme
+    tela-circle-icon-theme
+    nordzy-icon-theme
+    kanagawa-icon-theme
+    kanagawa-gtk-theme
+    openzone-cursors
 
   ];
 
