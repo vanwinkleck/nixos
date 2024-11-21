@@ -157,8 +157,6 @@
        heroic
        mangohud
        gamescope
-       waydroid
-
        obs-studio
 
       #openshot-qt
@@ -236,6 +234,8 @@
    docker-compose
    dbeaver-bin
    mysql_jdbc
+
+    virtualbox
     #openshot-qt
     #libsForQt5.libopenshot
     #libsForQt5.libopenshot-audio
