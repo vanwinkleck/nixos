@@ -29,9 +29,6 @@
   # Enable networking
   networking.networkmanager.enable = true;
   
-  #virtualisation.docker.enable = true;
-  #virtualisation.waydroid.enable = true;
-  
 
   fileSystems."/mnt/makima" =
     { device = "/dev/disk/by-uuid/E6FB-AEB8";

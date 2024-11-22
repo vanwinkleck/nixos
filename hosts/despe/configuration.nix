@@ -2,7 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, inputs, ... }:
+{ pkgs, inputs, ... }:
 
 {
   imports =
@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
       ../../modules/system/fonts.nix
+
       #./../../modules/home-manager/features/hyprland.nix
     ];
 
@@ -103,8 +104,6 @@
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
-  
-  
 
   programs.zsh.enable = true;
 
@@ -136,12 +135,13 @@
 	#remotePlay.openFirewall = true;
 	#dedicatedServer.openFirewall = true;
 	#localNetworkGameTransfers.openFirewall = true;
-	#};
+  #};
+
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
    neovim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-   wget
    git
    keepassxc
    mpv
@@ -149,7 +149,6 @@
    yt-dlp
    scrot
    neofetch
-   flatpak
     
     #waybar
     # dunst
