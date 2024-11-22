@@ -160,6 +160,7 @@
     git
     git-lfs
     keepassxc
+    lm_sensors
 
     gamemode
     mangohud
