@@ -11,6 +11,7 @@
       inputs.home-manager.nixosModules.default
       ../../modules/system/fonts.nix
       ../../modules/system/virtualisation.nix
+      #../../modules/home-manager/features/dconf.nix
       ../../modules/system/steam.nix
       #../../modules/system/gnome.nix
     ];
@@ -150,7 +151,7 @@
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
-  
+
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
