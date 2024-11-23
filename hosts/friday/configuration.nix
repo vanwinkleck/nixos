@@ -11,9 +11,7 @@
       inputs.home-manager.nixosModules.default
       ../../modules/system/fonts.nix
       ../../modules/system/virtualisation.nix
-      #../../modules/home-manager/features/dconf.nix
       ../../modules/system/steam.nix
-      #../../modules/system/gnome.nix
     ];
 
   # Bootloader.
