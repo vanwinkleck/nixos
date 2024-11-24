@@ -7,7 +7,6 @@
   	fira-code
   	fira-code-symbols
   	mplus-outline-fonts.githubRelease
-  	proggyfonts
 	cherry
 	nerdfonts
 	cozette

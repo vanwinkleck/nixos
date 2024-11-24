@@ -118,7 +118,7 @@
   home-manager = {
   	extraSpecialArgs = { inherit inputs; };
 	users = {
-		"rip" = import ../../modules/home-manager/fridayHome.nix;
+		"rip" = import ../../modules/home-manager/despeHome.nix;
 		};
 	};
 
