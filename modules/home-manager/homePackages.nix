@@ -4,6 +4,7 @@
     alacritty
     librewolf
     qbittorrent
+    htop
     #waydroid
 
     oh-my-zsh
