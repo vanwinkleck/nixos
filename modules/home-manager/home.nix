@@ -7,6 +7,8 @@
     ./features/mpv.nix
     ./features/discord.nix
     ./features/zsh.nix
+    ./features/git.nix
+    ./features/dconf.nix
     #./features/gnome.nix
     ./features/nvim/neovim.nix
  	];
@@ -19,29 +21,10 @@
   home.username = "rip";
   home.homeDirectory = "/home/rip";
 
-  programs.git = {
-    enable = true;
-    lfs.enable = true;
-	userName = "vanwinkleck";
-	userEmail = "vanwinkleck@protonmail.com";
-	extraConfig = {
-	 init.defaultBranch = "master";
-	};
-
-  };
-
   programs.vscode = {
     enable = true;
     package = pkgs.vscodium.fhs;
   };
-
-  dconf.settings = {
-  "org/virt-manager/virt-manager/connections" = {
-    autoconnect = ["qemu:///system"];
-    uris = ["qemu:///system"];
-    };
-  };
-
 
  # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
@@ -56,7 +39,6 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = with pkgs; [
-    hello
     alacritty
     librewolf
     qbittorrent
