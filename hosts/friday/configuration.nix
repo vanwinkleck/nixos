@@ -34,6 +34,14 @@
       fsType = "exfat";
       options = ["nofail" "uid=1000" "gid=1000" "dmask=007" "fmask=117" ];
     };
+
+  fileSystems."/mnt/reze" =
+    { device = "/dev/disk/by-uuid/1b5857f8-5912-4229-9939-c265d0bc332c";
+      fsType = "ext4";
+      options = ["nofail" "rw" "user" "exec"];#["nofail" "uid=1000" "gid=1000" "dmask=007" "fmask=117" ];
+    };
+
+
   
   fileSystems."/mnt/asa" = 
   {
