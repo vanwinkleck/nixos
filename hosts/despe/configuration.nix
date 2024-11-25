@@ -10,7 +10,6 @@
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
       ../../modules/system/fonts.nix
-
       #./../../modules/home-manager/features/hyprland.nix
     ];
 
