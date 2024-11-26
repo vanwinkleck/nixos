@@ -110,9 +110,12 @@
     extraGroups = [ "networkmanager" "wheel" "docker" ];
     shell = pkgs.zsh;
     packages = with pkgs; [
-       lutris
-       heroic
-       obs-studio
+      lutris
+      heroic
+      obs-studio
+      pcsx2
+      duckstation
+
 
       #openshot-qt
        #libsForQt5.libopenshot
