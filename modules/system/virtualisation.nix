@@ -17,6 +17,7 @@
     virtualbox
     docker
     docker-compose
+    # waydroid
   ];
 
 
