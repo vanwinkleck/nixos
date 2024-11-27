@@ -102,7 +102,6 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
   programs.zsh.enable = true;
-  #programs.zsh.ohMyZsh.enable = true;
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.rip = {
     isNormalUser = true;
@@ -116,7 +115,6 @@
       pcsx2
       duckstation
       gimp
-
 
       #openshot-qt
        #libsForQt5.libopenshot

@@ -54,10 +54,6 @@
   services.xserver.displayManager.lightdm.enable = true;
   services.xserver.desktopManager.xfce.enable = true;
 
-  # GNOME
-  #services.xserver.displayManager.gdm.enable = true;
-  #services.xserver.desktopManager.gnome.enable = true;
-
   # Hyprland
   #programs.hyprland.enable = true;
   #programs.hyprland.package = inputs.hyprland.packages."${pkgs.system}".hyprland;
@@ -127,15 +123,6 @@
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
-
-  
-  #programs.steam = {
-  	#enable=true;
-	#remotePlay.openFirewall = true;
-	#dedicatedServer.openFirewall = true;
-	#localNetworkGameTransfers.openFirewall = true;
-  #};
-
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
