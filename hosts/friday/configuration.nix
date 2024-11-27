@@ -114,6 +114,7 @@
       obs-studio
       pcsx2
       duckstation
+      retroarchFull
       gimp
 
       #openshot-qt
