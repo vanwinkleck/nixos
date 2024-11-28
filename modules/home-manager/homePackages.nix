@@ -15,5 +15,7 @@
 
     mgba
 
+    komikku
+
   ];
 }
