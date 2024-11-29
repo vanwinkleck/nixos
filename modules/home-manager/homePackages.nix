@@ -4,6 +4,7 @@
     alacritty
     librewolf
     qbittorrent
+    nicotine-plus
     htop
 
     oh-my-zsh
