@@ -14,8 +14,6 @@
 
     anki
 
-    mgba
-
     komikku
 
   ];
