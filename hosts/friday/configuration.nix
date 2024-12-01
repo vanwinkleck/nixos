@@ -13,6 +13,7 @@
       ../../modules/system/virtualisation.nix
       ../../modules/system/steam.nix
       ../../modules/system/disks.nix
+      ../../modules/system/emulation.nix
     ];
 
   # Bootloader.
@@ -114,7 +115,6 @@
       obs-studio
       pcsx2
       duckstation
-      retroarchFull
       gimp
 
       #openshot-qt
@@ -153,6 +153,7 @@
     gamemode
     mangohud
     gamescope
+    retroarch
 
     mpv
     ffmpeg
