@@ -113,8 +113,6 @@
       lutris
       heroic
       obs-studio
-      pcsx2
-      duckstation
       gimp
 
       #openshot-qt

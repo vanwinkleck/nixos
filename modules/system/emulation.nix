@@ -10,8 +10,11 @@ let
   ]));
 in
 {
-  environment.systemPackages = [
+  environment.systemPackages = with pkgs; [
     retroarchWithCores
+    pcsx2
+    duckstation
   ];
+
 }
 
