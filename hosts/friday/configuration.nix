@@ -13,7 +13,7 @@
       ../../modules/system/virtualisation.nix
       ../../modules/system/steam.nix
       ../../modules/system/disks.nix
-      #../../modules/system/emulation.nix
+      ../../modules/system/emulation.nix
     ];
 
   # Bootloader.
@@ -153,7 +153,7 @@
     gamemode
     mangohud
     gamescope
-    retroarch-full
+    retroarch
 
     mpv
     ffmpeg
