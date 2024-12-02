@@ -3,7 +3,7 @@
 {
  imports = [
  	inputs.nix-colors.homeManagerModules.default
-    ./homePackages.nix
+    ./packagesHome.nix
     ./features/alacritty.nix
     ./features/mpv.nix
     ./features/discord.nix
