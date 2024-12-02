@@ -153,7 +153,6 @@
     gamemode
     mangohud
     gamescope
-    retroarch
 
     mpv
     ffmpeg

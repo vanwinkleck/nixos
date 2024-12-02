@@ -5,6 +5,8 @@ let
     melonds
     dolphin
     citra
+    pcsx2
+    swanstation
   ]));
 in
 {
