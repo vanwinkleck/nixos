@@ -1,10 +1,10 @@
-> neovim config * Kinda done
+* neovim config -> Kinda done
 
 > move to hyprland???
   - if not, research gnome extensions and configuration
   - seperate hyprland into module so I can still use gnome on desktop
 
-> make secondary ssd work with steam * Done!
+* make secondary ssd work with steam -> Done!
 
 > declaritive librewolf extensions
 
@@ -12,10 +12,10 @@
 
 > Automate garbage collection and generation deletion (https://nixos.wiki/wiki/Storage_optimization)
 
->Zsh prompt? * Done!
+* Zsh prompt? -> Done!
 
 > Add c/c++ LSP  - Kinda working, need to fix. (No completion or snippets somehow?)
 
 > Make a dev environment for openGL
 
-> modularize retroarch and don't use every damn core -> done!
+* modularize retroarch and don't use every damn core -> done!

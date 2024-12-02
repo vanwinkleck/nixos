@@ -165,11 +165,13 @@
     gcc
     clang-tools
     clang
-    glfw
-
+    #glfw
 
     zig
     zls
+
+    lua
+    luajit
 
     dbeaver-bin
     mysql_jdbc
