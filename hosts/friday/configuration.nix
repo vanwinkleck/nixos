@@ -165,7 +165,6 @@
     gcc
     clang-tools
     clang
-    #glfw
 
     zig
     zls
@@ -191,7 +190,6 @@
 
 
     tokyonight-gtk-theme
-    tela-icon-theme
     tela-circle-icon-theme
     nordzy-icon-theme
     kanagawa-icon-theme
