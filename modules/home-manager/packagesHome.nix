@@ -15,7 +15,6 @@
     anki
 
     komikku
-    cmus
     strawberry
 
   ];
