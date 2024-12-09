@@ -18,6 +18,8 @@
     strawberry
 
     discord-screenaudio
+    legcord
+    equicord
 
   ];
 }
