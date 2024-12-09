@@ -17,9 +17,6 @@
     komikku
     strawberry
 
-    discord-screenaudio
     legcord
-    equicord
-
   ];
 }
