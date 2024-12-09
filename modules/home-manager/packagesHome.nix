@@ -17,5 +17,7 @@
     komikku
     strawberry
 
+    discord-screenaudio
+
   ];
 }

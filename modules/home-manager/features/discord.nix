@@ -61,13 +61,13 @@
         dearrow.enable = true;
         disableCallIdle.enable = true;
         emoteCloner.enable = true;
-        experiments.enable = true;
+        #experiments.enable = true;
         fakeNitro.enable = true;
         favoriteEmojiFirst.enable = true;
         favoriteGifSearch.enable = true;
         fixSpotifyEmbeds.enable = true;
         fixYoutubeEmbeds.enable = true;
-        #forceOwnerCrown.enable = true;
+        forceOwnerCrown.enable = true;
         friendInvites.enable = true;
         friendsSince.enable = true;
         fullSearchContext.enable = true;
@@ -76,15 +76,15 @@
         gifPaste.enable = true;
         imageZoom.enable = true;
         loadingQuotes.enable = true;
-        #memberCount.enable = true;
+        memberCount.enable = true;
         messageClickActions.enable = true;
-        messageLogger = {
-          enable = true;
-	        deleteStyle = "text";
-	       logDeletes = true;
-	       logEdits = true;
-	       ignoreSelf = true;
-        };
+        #messageLogger = {
+        #  enable = true;
+        #   deleteStyle = "text";
+        #  logDeletes = true;
+        #  logEdits = true;
+        #  ignoreSelf = true;
+        #};
         messageTags.enable = true;
         moreCommands.enable = true;
         moreKaomoji.enable = true;
@@ -96,7 +96,7 @@
         };
         noDevtoolsWarning.enable = true;
         noF1.enable = true;
-        #noReplyMention.enable = true;
+        noReplyMention.enable = true;
         noProfileThemes.enable = true;
         noUnblockToJump.enable = true;
         openInApp.enable = true;
@@ -113,7 +113,7 @@
         replaceGoogleSearch = {
           enable = true;
         };
-        secretRingToneEnabler.enable = true;
+      #secretRingToneEnabler.enable = true;
         sendTimestamps.enable = true;
         showHiddenChannels.enable = true;
         showHiddenThings.enable = true;
@@ -134,7 +134,7 @@
         voiceMessages.enable = true;
         volumeBooster.enable = true;
         webKeybinds.enable = true;
-        #webRichPresence.enable = true;
+        webRichPresence.enable = true;
         whoReacted.enable = true;
         youtubeAdblock.enable = true;
       };
