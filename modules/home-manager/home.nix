@@ -7,6 +7,7 @@
     ./features/alacritty.nix
     ./features/mpv.nix
     #./features/discord.nix
+    #./features/legcord.nix
     ./features/zsh.nix
     ./features/git.nix
     #./features/hyprland.nix
