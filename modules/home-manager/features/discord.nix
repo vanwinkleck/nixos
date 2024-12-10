@@ -38,31 +38,18 @@
      frameless = false;
       
       plugins = {
-      # alwaysTrust.enable = true;
+        alwaysTrust.enable = true;
         anonymiseFileNames = {
          enable = true;
          anonymiseByDefault = true;
         };
-        
-      # banger.enable = true;
-        # betterFolders = {
-        #   enable = true;
-        #   showFolderIcon = "always";
-        # };
-      # betterGifAltText.enable = true;
-        #betterGifPicker.enable = true;
-      # betterNotesBox.enable = true;
         betterRoleDot.enable = true;
-      #   betterUploadButton.enable = true;
-      # blurNSFW.enable = true;
+        betterUploadButton.enable = true;
         # callTimer.enable = true; # THIS IS THE BROKEN PLUGIN? HOW THE ACTUAL HELL???
         clearURLs.enable = true;
         crashHandler.enable = true;
-
         dearrow.enable = true;
-    #   disableCallIdle.enable = true;
         emoteCloner.enable = true;
-        #experiments.enable = true;
         fakeNitro.enable = true;
         favoriteEmojiFirst.enable = true;
         favoriteGifSearch.enable = true;
@@ -84,7 +71,6 @@
          enable = true;
          ignoreBlockedMessages = true;
        };
-      # noDevtoolsWarning.enable = true;
         noF1.enable = true;
         openInApp.enable = true;
         permissionFreeWill.enable = true;

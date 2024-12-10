@@ -9,9 +9,6 @@
     ./features/discord.nix
     ./features/zsh.nix
     ./features/git.nix
-    #./features/hyprland.nix
-    #./features/dconf.nix
-    #./features/gnome.nix
     ./features/nvim/neovim.nix
  	];
 
