@@ -9,9 +9,9 @@
        inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    nixcord = {
-      url = "github:kaylorben/nixcord";
-    };
+    # nixcord = {
+    # url = "github:kaylorben/nixcord";
+    #};
 
      nix-colors.url = "github:misterio77/nix-colors";
      hyprland.url = "github:hyprwm/Hyprland";

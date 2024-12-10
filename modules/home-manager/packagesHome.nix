@@ -18,5 +18,7 @@
     strawberry
 
     legcord
+    vesktop
+ 
   ];
 }
