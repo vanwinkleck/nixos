@@ -6,7 +6,7 @@
     ./packagesHome.nix
     ./features/alacritty.nix
     ./features/mpv.nix
-    #./features/discord.nix
+    ./features/discord.nix
     ./features/zsh.nix
     ./features/git.nix
     #./features/hyprland.nix

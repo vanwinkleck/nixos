@@ -16,9 +16,6 @@
 
     komikku
     strawberry
-
-    legcord
-    vesktop
  
   ];
 }
