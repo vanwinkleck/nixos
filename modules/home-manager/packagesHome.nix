@@ -1,6 +1,8 @@
 { pkgs, ... }: {
+  nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
+
     alacritty
     librewolf
     qbittorrent
@@ -16,6 +18,8 @@
 
     komikku
     strawberry
+
+    slack
  
   ];
 }
