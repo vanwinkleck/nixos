@@ -41,8 +41,8 @@
       }
 
       {
-        plugin = tokyonight-nvim;
-        config = "colorscheme tokyonight-night";
+        plugin = kanagawa-nvim;
+        config = "colorscheme kanagawa";
       }
 
       neodev-nvim

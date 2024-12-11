@@ -8,7 +8,6 @@
     ./features/mpv.nix
     ./features/discord.nix
     ./features/zsh.nix
-    #./features/gnome.nix
     ./features/nvim/neovim.nix
  	];
 
