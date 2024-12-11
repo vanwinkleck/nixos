@@ -118,8 +118,7 @@
       lutris
       heroic
       obs-studio
-      gimp
-
+      krita
       #openshot-qt
        #libsForQt5.libopenshot
        #libsForQt5.libopenshot-audio
