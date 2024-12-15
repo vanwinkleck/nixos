@@ -83,9 +83,9 @@
         showHiddenChannels.enable = true;
         showHiddenThings.enable = true;
         silentTyping.enable = true;
-        spotifyControls.enable = true;
-        spotifyCrack.enable = true;
-        spotifyShareCommands.enable = true;
+        #spotifyControls.enable = true;
+        #spotifyCrack.enable = true;
+        #spotifyShareCommands.enable = true;
         translate.enable = true;
         typingIndicator.enable = true;
         userVoiceShow.enable = true;
@@ -95,7 +95,7 @@
         voiceChatDoubleClick.enable = true;
         voiceMessages.enable = true;
         volumeBooster.enable = true;
-        webRichPresence.enable = true;
+        #webRichPresence.enable = true;
         whoReacted.enable = true;
         youtubeAdblock.enable = true;
   };
