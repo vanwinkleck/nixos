@@ -8,6 +8,7 @@
     qbittorrent
     nicotine-plus
     htop
+    makemkv
 
     oh-my-zsh
     thefuck
