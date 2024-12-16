@@ -33,7 +33,7 @@
       };
     config = {
       themeLinks = [
-      "https://raw.githubusercontent.com/Dyzean/Tokyo-Night/main/themes/tokyo-night.theme.css"
+      "https://raw.githubusercontent.com/vanwinkleck/KanagawaGTK-JetbrainsMono/refs/heads/main/theme.css"
      ];
      frameless = false;
       
