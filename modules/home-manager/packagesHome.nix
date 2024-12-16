@@ -16,6 +16,7 @@
     tldr
 
     anki
+    newsboat
 
     komikku
     strawberry
