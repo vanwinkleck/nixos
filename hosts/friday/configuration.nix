@@ -197,7 +197,7 @@
     nordzy-icon-theme
     kanagawa-icon-theme
     kanagawa-gtk-theme
-    openzone-cursors
+    kdePackages.kdeconnect-kde
 
   ];
 

@@ -33,7 +33,7 @@
       };
     config = {
       themeLinks = [
-      "https://raw.githubusercontent.com/vanwinkleck/KanagawaGTK-JetbrainsMono/refs/heads/main/theme.css"
+        "https://raw.githubusercontent.com/KillYoy/DiscordNight/master/DiscordNight.theme.css"
      ];
      frameless = false;
       
