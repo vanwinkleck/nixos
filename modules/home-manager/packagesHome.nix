@@ -9,6 +9,8 @@
     nicotine-plus
     htop
     makemkv
+    libimobiledevice
+    usbmuxd
 
     oh-my-zsh
     thefuck

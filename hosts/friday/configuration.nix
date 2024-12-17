@@ -197,8 +197,6 @@
     nordzy-icon-theme
     kanagawa-icon-theme
     kanagawa-gtk-theme
-    kdePackages.kdeconnect-kde
-
   ];
 
 
