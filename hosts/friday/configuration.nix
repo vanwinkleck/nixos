@@ -179,9 +179,6 @@
     dbeaver-bin
     mysql_jdbc
 
-    wireguard-tools
-    wireguard-ui
-
     #openshot-qt
     #libsForQt5.libopenshot
     #libsForQt5.libopenshot-audio
