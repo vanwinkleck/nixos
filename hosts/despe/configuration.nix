@@ -10,7 +10,7 @@
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
       ../../modules/system/fonts.nix
-      #./../../modules/home-manager/features/hyprland.nix
+      ../../modules/system/sharedSystemPackages.nix
     ];
 
   # Bootloader.
@@ -126,25 +126,6 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-  environment.systemPackages = with pkgs; [
-   neovim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-   git
-   keepassxc
-   mpv
-   ffmpeg
-   yt-dlp
-   scrot
-   neofetch
-    
-    #waybar
-    # dunst
-    #swww
-    #kitty
-    #rofi-wayland
-    #xfce.thunar
-	
-
-  ];
 
 
   # Some programs need SUID wrappers, can be configured further or are

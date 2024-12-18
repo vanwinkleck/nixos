@@ -1,25 +1,10 @@
 {pkgs, ... }: {
 
   environment.systemPackages = with pkgs; [
-    neovim 
-    wget
-    git
-    git-lfs
-    keepassxc
-    lm_sensors
 
     gamemode
     mangohud
     gamescope
-
-    mpv
-    ffmpeg
-    yt-dlp
-
-    zsh
-    neofetch
-    flatpak
-    gnome-tweaks
 
     cmake
     gcc
