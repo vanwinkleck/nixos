@@ -11,6 +11,6 @@
     neofetch
     flatpak
     wget
-    lm-sensors
+    lm_sensors
   ];
 }
