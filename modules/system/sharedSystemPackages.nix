@@ -13,5 +13,8 @@
     lm_sensors
 
     (import ../scripts/trim.nix { inherit pkgs; })
+    (import ../scripts/convert.nix { inherit pkgs; })
+    (import ../scripts/webm.nix { inherit pkgs; })
+
   ];
 }

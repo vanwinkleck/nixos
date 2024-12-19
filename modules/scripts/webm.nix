@@ -1,6 +1,6 @@
 { pkgs }: 
 
-pkgs.writeShellScriptBin "convert2Webm" ''
+pkgs.writeShellScriptBin "webmConv" ''
 input=$1
 output=$2
 
