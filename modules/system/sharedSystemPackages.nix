@@ -11,5 +11,7 @@
     flatpak
     wget
     lm_sensors
+
+    (import ../scripts/trim.nix { inherit pkgs; })
   ];
 }
