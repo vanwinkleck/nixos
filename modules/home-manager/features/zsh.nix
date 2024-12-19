@@ -24,10 +24,6 @@ programs.zsh = {
       dot = "cd /home/rip/.config/";
       config = "cd /home/rip/nixos/";
 
-      # FFMPEG
-      trim = "sed -n -e 6p /home/rip/Documents/commands";
-      conv = "sed -n -e 22p /home/rip/Documents/commands";
-
       # Git commands
       gc = "git commit -m";
       gps = "git push";
