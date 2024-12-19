@@ -121,10 +121,6 @@
       heroic
       obs-studio
       krita
-      #openshot-qt
-       #libsForQt5.libopenshot
-       #libsForQt5.libopenshot-audio
-
     ];
   };
 

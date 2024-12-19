@@ -7,9 +7,7 @@
     gamescope
 
 
-    cmake
     gcc
-    clang-tools
     clang
 
     zig
