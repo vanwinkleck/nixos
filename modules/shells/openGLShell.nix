@@ -2,6 +2,8 @@
 
 pkgs.mkShell
 {
+  name = "openGL";
+
   nativeBuildInputs = with pkgs; [
     cmake
     glfw
