@@ -9,6 +9,7 @@
 
     gcc
     clang
+    clang-tools
 
     zig
     zls
