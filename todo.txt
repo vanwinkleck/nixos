@@ -19,3 +19,5 @@
 > Make a dev environment for openGL
 
 * modularize retroarch and don't use every damn core -> done!
+
+> newsboat config
