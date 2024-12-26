@@ -21,7 +21,8 @@
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-
+  
+  # Allows makeMKV to see Blu Ray drive
   boot.kernelModules = ["sg"];
 
   networking.hostName = "friday"; # Define your hostname.
