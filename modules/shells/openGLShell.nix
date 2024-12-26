@@ -9,6 +9,7 @@ pkgs.mkShell
     glfw
     lua
     glm
+    gcc
   ];
 
 }
