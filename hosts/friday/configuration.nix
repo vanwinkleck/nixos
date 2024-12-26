@@ -22,6 +22,8 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
+  boot.kernelModules = ["sg"];
+
   networking.hostName = "friday"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
@@ -51,6 +53,7 @@
   };
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
