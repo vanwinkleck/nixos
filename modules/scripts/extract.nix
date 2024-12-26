@@ -14,7 +14,7 @@ Usage:
   exit 1
 fi
 
-(${pkgs.ffmpeg}/bin/ffmpeg -nostdin -i $input -q:a 0 -map a $output.mp3)
+(${pkgs.ffmpeg}/bin/ffmpeg -nostdin -i "$input" -q:a 0 -map a $output.mp3)
 ''
 
 

@@ -15,7 +15,7 @@ Usage:
   exit 1
 fi
 
-(${pkgs.ffmpeg}/bin/ffmpeg -nostdin -i $input -c:v libx264 -crf $quality -preset slow -vf format=yuv420p -c:a aac -movflags +faststart $output)
+(${pkgs.ffmpeg}/bin/ffmpeg -nostdin -i "$input" -c:v libx264 -crf $quality -preset slow -vf format=yuv420p -c:a aac -movflags +faststart $output)
 ''
 
 
