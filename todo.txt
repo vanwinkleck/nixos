@@ -21,3 +21,5 @@
 * modularize retroarch and don't use every damn core -> done!
 
 > newsboat config
+
+> Cleanup flake and home-manager

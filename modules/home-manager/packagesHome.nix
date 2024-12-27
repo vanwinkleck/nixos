@@ -4,7 +4,6 @@
   home.packages = with pkgs; [
 
     alacritty
-    ghostty
     librewolf
     qbittorrent
     nicotine-plus

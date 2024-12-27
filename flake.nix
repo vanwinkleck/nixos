@@ -37,8 +37,13 @@
     nixosConfigurations.despe = nixpkgs.lib.nixosSystem {
      specialArgs = {inherit inputs;};
      modules = [
-      ./hosts/despe/configuration.nix
-      inputs.home-manager.nixosModules.default
+        ./hosts/despe/configuration.nix
+        inputs.home-manager.nixosModules.default
+        {
+          environment.systemPackages = [
+            ghostty.packages.x86_64-linux.default
+          ];
+        }
      ];
     };
 
@@ -52,7 +57,6 @@
             ghostty.packages.x86_64-linux.default
           ];
         }
-
 	];
        };
   };
