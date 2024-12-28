@@ -122,7 +122,6 @@
     shell = pkgs.zsh;
     packages = with pkgs; [
       lutris
-      heroic
       obs-studio
       krita
     ];
