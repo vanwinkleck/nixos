@@ -33,10 +33,10 @@
     #rofi-wayland
 
 
-    tokyonight-gtk-theme
+    #tokyonight-gtk-theme
     tela-circle-icon-theme
     nordzy-icon-theme
     kanagawa-icon-theme
-    kanagawa-gtk-theme
+    #kanagawa-gtk-theme
   ];
 }
