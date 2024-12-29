@@ -5,6 +5,7 @@
  	inputs.nix-colors.homeManagerModules.default
     ./packagesHome.nix
     ./features/alacritty.nix
+    ./features/git.nix
     ./features/mpv.nix
     ./features/discord.nix
     ./features/zsh.nix
@@ -18,17 +19,6 @@
   # manage.
   home.username = "rip";
   home.homeDirectory = "/home/rip";
-
-  programs.git = {
-    enable = true;
-    lfs.enable = true;
-	userName = "vanwinkleck";
-	userEmail = "vanwinkleck@protonmail.com";
-	extraConfig = {
-	 init.defaultBranch = "master";
-	};
-
-  };
 
   programs.vscode = {
     enable = true;
