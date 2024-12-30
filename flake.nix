@@ -40,9 +40,8 @@
         ./hosts/despe/configuration.nix
         inputs.home-manager.nixosModules.default
         {
-          environment.systemPackages = [
-            ghostty.packages.x86_64-linux.default
-          ];
+          environment.systemPackages = 
+            [ ghostty.packages.x86_64-linux.default ];
         }
      ];
     };
@@ -53,9 +52,8 @@
 	    ./hosts/friday/configuration.nix
         inputs.home-manager.nixosModules.default
         {
-          environment.systemPackages = [
-            ghostty.packages.x86_64-linux.default
-          ];
+          environment.systemPackages = 
+            [ ghostty.packages.x86_64-linux.default ];
         }
 	];
        };
