@@ -20,6 +20,8 @@
     dbeaver-bin
     mysql_jdbc
 
+    memtester
+
     #openshot-qt
     #libsForQt5.libopenshot
     #libsForQt5.libopenshot-audio
