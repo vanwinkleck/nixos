@@ -14,6 +14,7 @@
       ../../modules/system/steam.nix
       ../../modules/system/disks.nix
       ../../modules/system/emulation.nix
+      ../../modules/system/tif.nix
       ../../modules/system/sharedSystemPackages.nix
       ../../modules/system/fridaySystemPackages.nix
     ];

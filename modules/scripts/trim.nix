@@ -16,7 +16,7 @@ Usage:
   exit 1
 fi
 
-(${pkgs.ffmpeg}/bin/ffmpeg -nostdin -ss $startTime -to $endTime -i "$input" -c copy $output)
+(${pkgs.ffmpeg}/bin/ffmpeg -nostdin -i "$input" -ss $startTime -to $endTime -c copy $output)
 ''
 
 

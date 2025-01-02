@@ -4,6 +4,7 @@
     git
     git-lfs
     keepassxc
+    wireguard-tools
     mpv
     ffmpeg
     yt-dlp
