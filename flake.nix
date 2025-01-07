@@ -13,10 +13,6 @@
      url = "github:kaylorben/nixcord";
     };
 
-    ghostty = {
-      url = "github:ghostty-org/ghostty";
-    };
-
      nix-colors.url = "github:misterio77/nix-colors";
     #  hyprland.url = "github:hyprwm/Hyprland";
     # hyprland-plugins = {
@@ -25,7 +21,7 @@
     #  };
     };
 
-  outputs = { self, nixpkgs, ghostty, ... }@inputs: {
+  outputs = { self, nixpkgs, ... }@inputs: {
     nixosConfigurations.default = nixpkgs.lib.nixosSystem {
       specialArgs = {inherit inputs;};
       modules = [
@@ -39,10 +35,6 @@
      modules = [
         ./hosts/despe/configuration.nix
         inputs.home-manager.nixosModules.default
-        {
-          environment.systemPackages = 
-            [ ghostty.packages.x86_64-linux.default ];
-        }
      ];
     };
 
@@ -51,10 +43,6 @@
 	modules = [
 	    ./hosts/friday/configuration.nix
         inputs.home-manager.nixosModules.default
-        {
-          environment.systemPackages = 
-            [ ghostty.packages.x86_64-linux.default ];
-        }
 	];
        };
   };
