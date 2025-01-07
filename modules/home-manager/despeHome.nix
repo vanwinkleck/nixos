@@ -4,7 +4,6 @@
  imports = [
  	inputs.nix-colors.homeManagerModules.default
     ./packagesHome.nix
-    ./features/alacritty.nix
     ./features/git.nix
     ./features/mpv.nix
     ./features/discord.nix
@@ -13,7 +12,7 @@
  	];
 
 
-  colorScheme = inputs.nix-colors.colorSchemes.tokyo-night-terminal-dark;
+  colorScheme = inputs.nix-colors.colorSchemes.kanagawa;
   
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
