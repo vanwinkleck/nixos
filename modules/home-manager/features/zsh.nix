@@ -21,6 +21,7 @@ programs.zsh = {
 
       # Navigation
       edits = "cd /mnt/makima/Edits/";
+      record = "cd /mnt/makima/Recordings/";
       dot = "cd /home/rip/.config/";
       config = "cd /home/rip/nixos/";
 

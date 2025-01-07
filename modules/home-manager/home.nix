@@ -4,7 +4,7 @@
  imports = [
  	inputs.nix-colors.homeManagerModules.default
     ./packagesHome.nix
-    ./features/alacritty.nix
+    #./features/ghostty.nix
     ./features/mpv.nix
     ./features/discord.nix
     ./features/zsh.nix

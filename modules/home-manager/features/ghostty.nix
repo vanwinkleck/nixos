@@ -2,18 +2,15 @@
 {
   programs.ghostty = {
     enable = true;
-    config = {
+    
+    font-family = "JetBrainsMono NFP Regular";
 
-  
-      font-family = "JetBrainsMono NFP Regular";
+    theme = "kanagawabones";
 
-      theme = "kanagawabones";
+    title = "ghostty";
 
-      title = "ghostty";
-
-      window-decoration = "true";
-      window-padding-x = "8";
-      window-padding-y = "8";
-    };
+    window-decoration = "true";
+    window-padding-x = "8";
+    window-padding-y = "8";
   };
 }

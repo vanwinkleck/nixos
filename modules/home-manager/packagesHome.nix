@@ -2,8 +2,6 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
-
-    alacritty
     ghostty
     librewolf
     qbittorrent
@@ -17,7 +15,6 @@
     tldr
 
     anki
-    newsboat
 
     komikku
     strawberry
