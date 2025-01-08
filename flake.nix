@@ -13,10 +13,10 @@
      url = "github:kaylorben/nixcord";
     };
 
-    private_configs = {
-      url = "path:/home/rip/nixos/modules/system/tif.nix";
-      flake = false;
-    };
+    #private_configs = {
+    #  url = "path:/home/rip/.wireguard/tif.nix";
+    #  flake = false;
+    #};
 
      nix-colors.url = "github:misterio77/nix-colors";
     #  hyprland.url = "github:hyprwm/Hyprland";
