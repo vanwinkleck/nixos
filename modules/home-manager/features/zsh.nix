@@ -29,6 +29,9 @@ programs.zsh = {
       gc = "git commit -m";
       gps = "git push";
       gpl = "git pull";
+
+      # work
+      tif = "sudo nmcli con import type wireguard file /home/rip/.wireguard/tif1.conf";
     };
 
       history = {
