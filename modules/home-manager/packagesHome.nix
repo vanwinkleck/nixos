@@ -3,7 +3,7 @@
 
   home.packages = with pkgs; [
     ghostty
-    librewolf
+    #librewolf
     qbittorrent
     nicotine-plus
     htop

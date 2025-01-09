@@ -13,10 +13,10 @@
      url = "github:kaylorben/nixcord";
     };
 
-    #private_configs = {
-    #  url = "path:/home/rip/.wireguard/tif.nix";
-    #  flake = false;
-    #};
+    firefox-addons = {
+      url = "gitlab:rycee/nur-expressions?dir=pkgs/firefox-addons";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
      nix-colors.url = "github:misterio77/nix-colors";
     #  hyprland.url = "github:hyprwm/Hyprland";

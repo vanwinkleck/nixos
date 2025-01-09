@@ -51,12 +51,9 @@
         dearrow.enable = true;
         emoteCloner.enable = true;
         fakeNitro.enable = true;
-        favoriteEmojiFirst.enable = true;
         favoriteGifSearch.enable = true;
         fixSpotifyEmbeds.enable = true;
         fixYoutubeEmbeds.enable = true;
-        forceOwnerCrown.enable = true;
-        friendInvites.enable = true;
         friendsSince.enable = true;
         fullSearchContext.enable = true;
         fixCodeblockGap.enable = true;
@@ -65,7 +62,6 @@
         memberCount.enable = true;
         moreCommands.enable = true;
         moreKaomoji.enable = true;
-        mutualGroupDMs.enable = true;
         newGuildSettings.enable = true;
         noBlockedMessages = {
          enable = true;
@@ -75,17 +71,10 @@
         openInApp.enable = true;
         permissionFreeWill.enable = true;
         pictureInPicture.enable = true;
-        pinDMs.enable = true;
-        platformIndicators.enable = true;
         previewMessage.enable = true;
-        quickMention.enable = true;
-        quickReply.enable = true;
         showHiddenChannels.enable = true;
         showHiddenThings.enable = true;
         silentTyping.enable = true;
-        #spotifyControls.enable = true;
-        #spotifyCrack.enable = true;
-        #spotifyShareCommands.enable = true;
         translate.enable = true;
         typingIndicator.enable = true;
         userVoiceShow.enable = true;
@@ -95,7 +84,6 @@
         voiceChatDoubleClick.enable = true;
         voiceMessages.enable = true;
         volumeBooster.enable = true;
-        #webRichPresence.enable = true;
         whoReacted.enable = true;
         youtubeAdblock.enable = true;
   };

@@ -6,6 +6,7 @@
     ./packagesHome.nix
     ./features/git.nix
     ./features/mpv.nix
+    ./features/librewolf.nix
     ./features/discord.nix
     ./features/zsh.nix
     ./features/nvim/neovim.nix
