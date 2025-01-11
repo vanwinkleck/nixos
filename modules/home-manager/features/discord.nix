@@ -45,7 +45,6 @@
         };
         betterRoleDot.enable = true;
         betterUploadButton.enable = true;
-        # callTimer.enable = true; # THIS IS THE BROKEN PLUGIN? HOW THE ACTUAL HELL???
         clearURLs.enable = true;
         crashHandler.enable = true;
         dearrow.enable = true;
@@ -78,7 +77,6 @@
         translate.enable = true;
         typingIndicator.enable = true;
         userVoiceShow.enable = true;
-        USRBG.enable = true;
         vencordToolbox.enable = true;
         viewIcons.enable = true;
         voiceChatDoubleClick.enable = true;

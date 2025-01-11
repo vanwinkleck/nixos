@@ -22,6 +22,10 @@ programs.firefox = {
         keepassxc-browser
         localcdn
         violentmonkey
+        privacy-badger
+        sponsorblock
+        decentraleyes
+        return-youtube-dislikes
       ];
 
   };
