@@ -9,6 +9,7 @@
     makemkv
 
     oh-my-zsh
+    starship
     tldr
 
     anki

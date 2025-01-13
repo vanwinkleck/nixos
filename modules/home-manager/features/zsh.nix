@@ -41,8 +41,8 @@ programs.zsh = {
 
     oh-my-zsh = {
       enable = true;
-      theme = "steeef";
-      plugins = ["git" "ufw" "tldr"];
+      theme = "gallois";
+      plugins = ["git" "starship" "ufw" "tldr"];
 
     };  
   };
