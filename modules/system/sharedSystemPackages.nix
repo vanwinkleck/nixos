@@ -9,7 +9,6 @@
     ffmpeg
     yt-dlp
     neofetch
-    flatpak
     wget
     lm_sensors
 

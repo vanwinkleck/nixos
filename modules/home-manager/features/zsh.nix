@@ -42,7 +42,7 @@ programs.zsh = {
     oh-my-zsh = {
       enable = true;
       theme = "steeef";
-      plugins = ["git" "thefuck" "ufw" "starship" "tldr"];
+      plugins = ["git" "ufw" "tldr"];
 
     };  
   };

@@ -3,15 +3,12 @@
 
   home.packages = with pkgs; [
     ghostty
-    #librewolf
     qbittorrent
     nicotine-plus
     htop
     makemkv
 
     oh-my-zsh
-    thefuck
-    starship
     tldr
 
     anki
