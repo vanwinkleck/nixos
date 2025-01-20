@@ -11,7 +11,6 @@
       inputs.home-manager.nixosModules.default
       ../../modules/system/fonts.nix
       ../../modules/system/sharedSystemPackages.nix
-      ../../modules/system/tif.nix
     ];
 
   # Bootloader.
