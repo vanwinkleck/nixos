@@ -20,6 +20,8 @@
     slack
     libreoffice
 
+    shotcut
+
     openmw
  
   ];
