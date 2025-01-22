@@ -23,3 +23,5 @@
 > newsboat config
 
 > Cleanup flake and home-manager
+
+> Look into specialization -> https://nixos.wiki/wiki/Specialisation
