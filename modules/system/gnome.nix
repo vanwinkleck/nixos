@@ -11,7 +11,6 @@
   ];
 
   environment.systemPackages = with pkgs.gnomeExtensions; [
-    wayland-or-x11
     user-themes
     toggle-headphone
     appindicator

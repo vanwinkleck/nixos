@@ -13,6 +13,7 @@
       ../../modules/system/virtualisation.nix
       ../../modules/system/steam.nix
       ../../modules/system/disks.nix
+      ../../modules/system/gnome.nix
       ../../modules/system/emulation.nix
       ../../modules/system/sharedSystemPackages.nix
       ../../modules/system/fridaySystemPackages.nix
