@@ -82,6 +82,34 @@
     variant = "";
   };
 
+  specialisation = {
+    friday.configuration = {
+      services.xserver.displayManager.gdm.enable = true;
+      services.xserver.desktopManager.gnome.enable = true;
+    };
+
+    hyprFriday = {
+      inheritParentConfig = false;
+      configuration = {
+        system.nixos.tags = ["hyprFriday"];
+        programs.hyprland.enable = true;
+        programs.hyprland.package = inputs.hyprland.packages."${pkgs.system}".hyprland;
+
+        imports = [
+          ../../system/modules/hyprland.nix
+        ];
+
+        environment.systemPackages = with pkgs; [
+          kitty
+          rofi
+          waybar
+        ];
+
+
+      };
+    };
+  };
+
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
