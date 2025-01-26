@@ -23,6 +23,8 @@
     shotcut
 
     openmw
+
+    zoom-us
  
   ];
 }
