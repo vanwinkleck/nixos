@@ -12,14 +12,6 @@
 		family = "JetBrainsMono Nerd Font";
 		};
 
-		#bold = {
-		#family = "JetBrainsMono Nerd Font Bold";
-		#};
-
-		#italic = {
-		#family = "JetBrainsMono Nerd Font Light Italic";
-      #};
-
 	};
  	colors = with config.colorScheme.palette; {
 	 bright = { 

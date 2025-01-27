@@ -76,7 +76,6 @@
 
       vim-clang-format
       clangd_extensions-nvim
-      #clang_complete
 
       zig-vim 
 
