@@ -31,7 +31,7 @@ programs.zsh = {
       gpl = "git pull";
 
       # work
-      tif = "sudo nmcli con import type wireguard file /home/rip/.wireguard/tif1.conf";
+      tif = "sudo nmcli con import type wireguard file /home/rip/.wireguard/Tif.AI-Copelan.conf";
     };
 
       history = {
