@@ -8,6 +8,8 @@
     htop
     makemkv
 
+    pavucontrol
+
     oh-my-zsh
     starship
     tldr
