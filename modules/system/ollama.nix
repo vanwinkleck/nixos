@@ -11,6 +11,7 @@
     acceleration = "rocm";
     environmentVariables = {
       HCC_AMDGPU_TARGET = "gfx1030";
+      #OLLAMA_HOST = "0.0.0.0";
     };
     rocmOverrideGfx = "10.3.0";
   };
