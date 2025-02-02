@@ -1,14 +1,14 @@
 { pkgs, ... }:
 {
   environment.systemPackages = with pkgs; [
-    ollama
+    ollama-rocm
   ];
 
 
   services.ollama = {
     enable = true;
     loadModels = ["mistral" "deepseek-r1:8b"];
-    # acceleration = "rocm";
+    acceleration = "rocm";
     #environmentVariables = {
     #  HCC_AMDGPU_TARGET = "gfx1030";
     #};
