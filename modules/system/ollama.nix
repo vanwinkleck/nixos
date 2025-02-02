@@ -7,6 +7,7 @@
 
   services.ollama = {
     enable = true;
+    loadModels = ["mistral" "deepseek-r1:8b"];
     # acceleration = "rocm";
     #environmentVariables = {
     #  HCC_AMDGPU_TARGET = "gfx1030";
