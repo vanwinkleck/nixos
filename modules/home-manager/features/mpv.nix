@@ -5,7 +5,7 @@
 
   config = {
  	profile = "high-quality";
-	yt-dl-format = "bestvideo+bestaudio";
+    #yt-dl-format = "bestvideo+bestaudio";
 	#Always open the video player in full screen
 	fullscreen= "yes";
 
