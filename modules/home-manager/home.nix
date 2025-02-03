@@ -1,4 +1,4 @@
-{ pkgs, inputs, ... }:
+{ inputs, ... }:
 
 {
  imports = [
@@ -20,11 +20,6 @@
   # manage.
   home.username = "rip";
   home.homeDirectory = "/home/rip";
-
-  programs.vscode = {
-    enable = true;
-    package = pkgs.vscodium.fhs;
-  };
 
  # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
