@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
+      ../../modules/system/sshd.nix
       ../../modules/system/fonts.nix
       ../../modules/system/virtualisation.nix
       ../../modules/system/ollama.nix
@@ -176,11 +177,19 @@
   # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
+  #  services.openssh = {
+  #  enable = true;
+  #  ports = [ 2222 ];
+  #  settings = {
+  #    PasswordAuthentication = false;
+  #    AllowUsers = [ "rip" ];
+  #    PermitRootLogin = "no";
+  #  };
+  #};
 
   # Open ports in the firewall.
-  # networking.firewall.allowedTCPPorts = [ ... ];
-  # networking.firewall.allowedUDPPorts = [ ... ];
+  #networking.firewall.allowedTCPPorts = [ 99 ];
+  #networking.firewall.allowedUDPPorts = [ 99 ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
 
