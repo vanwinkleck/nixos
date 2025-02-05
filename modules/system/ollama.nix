@@ -10,10 +10,10 @@
     loadModels = ["mistral" "deepseek-r1:14b" "deepseek-r1:32b" "deepseek-coder:33b"];
     acceleration = "rocm";
     environmentVariables = {
-      HCC_AMDGPU_TARGET = "gfx1030";
+      HCC_AMDGPU_TARGET = "gfx1036";
       # At the moment, this allows GPU acceleration to work. May be able to remove this in the future, and have not tried to reboot yet. Rebooting/rebuilding seemed to cause GPU acceleration to break previously. 
       HSA_OVERRIDE_GFX_VERSION = "11.0.0";
-      #OLLAMA_HOST = "0.0.0.0";
+      OLLAMA_HOST = "0.0.0.0";
     };
     rocmOverrideGfx = "10.3.0"; 
   };
