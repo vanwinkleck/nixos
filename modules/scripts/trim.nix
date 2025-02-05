@@ -16,7 +16,7 @@ Usage:
   exit 1
 fi
 
-(${pkgs.ffmpeg}/bin/ffmpeg -nostdin -accurate_seek -i "$input" -ss $startTime -to $endTime $output)
+(${pkgs.ffmpeg}/bin/ffmpeg -nostdin -accurate_seek -i "$input" -ss $startTime -to $endTime -crf 20 $output)
 ''
 
 
