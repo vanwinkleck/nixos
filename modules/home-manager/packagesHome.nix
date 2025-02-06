@@ -8,8 +8,6 @@
     htop
     makemkv
 
-    pavucontrol
-
     oh-my-zsh
     starship
     tldr
@@ -25,8 +23,6 @@
     shotcut
 
     openmw
-
-    zoom-us
  
   ];
 }

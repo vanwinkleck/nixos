@@ -1,11 +1,9 @@
 {pkgs, ... }: {
 
   environment.systemPackages = with pkgs; [
-
     gamemode
     mangohud
     gamescope
-
 
     gcc
     clang
@@ -22,18 +20,12 @@
 
     memtester
 
-    #openshot-qt
-    #libsForQt5.libopenshot
-    #libsForQt5.libopenshot-audio
-
-
    # --Hyprland stuff--
     #waybar
     #dunst
     #swww
     #kitty
     #rofi-wayland
-
 
     #tokyonight-gtk-theme
     tela-circle-icon-theme
