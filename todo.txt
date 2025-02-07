@@ -11,3 +11,5 @@
 > Cleanup flake and home-manager
 
 > Look into specialization -> https://nixos.wiki/wiki/Specialisation
+
+> Set up neovim keybindings (telescope, etc)
