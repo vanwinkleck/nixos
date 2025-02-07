@@ -58,3 +58,8 @@ require('lspconfig').zls.setup {
 	capabilities = capabilites,
 }
 
+require('lspconfig').phpactor.setup {
+	on_attach = on_attach,
+	capabilities = capabilites,
+}
+
