@@ -19,5 +19,5 @@
   };
 
   # might not need this, going to try default web ui first
-  services.open-webui.enable = true; 
+  #services.open-webui.enable = true; 
 }
