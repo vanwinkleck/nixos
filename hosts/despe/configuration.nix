@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
       ../../modules/system/fonts.nix
+      ../../modules/system/steam.nix
       ../../modules/system/sharedSystemPackages.nix
     ];
 
