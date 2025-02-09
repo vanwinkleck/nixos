@@ -10,13 +10,14 @@
 	  enable = true;
 
 	  extraPackages = with pkgs; [
-		  lua-language-server
+		lua-language-server
 		#rnix-lsp
 
-		  xclip
-		  wl-clipboard
+		xclip
+        wl-clipboard
+        ripgrep
 
-		  luajitPackages.lua-lsp
+		luajitPackages.lua-lsp
       ];
 
 
