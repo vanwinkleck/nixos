@@ -15,6 +15,9 @@
     lua
     luajit
 
+    php
+    phpunit
+
     dbeaver-bin
     mysql_jdbc
 

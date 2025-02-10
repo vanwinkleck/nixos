@@ -10,7 +10,8 @@
 	  enable = true;
 
 	  extraPackages = with pkgs; [
-		lua-language-server
+        lua-language-server
+        phpactor
 		#rnix-lsp
 
 		xclip
