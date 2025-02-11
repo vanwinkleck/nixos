@@ -30,8 +30,13 @@ programs.zsh = {
       gps = "git push";
       gpl = "git pull";
 
+      # Docker commands
+      dcdv = "docker-compose down -v";
+      dcud = "docker-compose up -d";
+
+
       # work
-      tif = "sudo nmcli con import type wireguard file /home/rip/.wireguard/Tif.AI-Copelan.conf";
+      tif = "nmcli con up Tif.AI-Copelan";
     };
 
       history = {
