@@ -18,6 +18,8 @@
     php
     phpunit
 
+    typescript
+
     dbeaver-bin
     mysql_jdbc
 

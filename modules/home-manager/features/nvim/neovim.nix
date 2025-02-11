@@ -12,6 +12,8 @@
 	  extraPackages = with pkgs; [
         lua-language-server
         phpactor
+        vue-language-server
+        typescript-language-server
 		#rnix-lsp
 
 		xclip
@@ -87,7 +89,7 @@
 
         phpactor
 
-        coc-tsserver
+        
 
 
         {
@@ -100,6 +102,7 @@
             p.tree-sitter-cpp
             p.tree-sitter-cmake
             p.tree-sitter-javascript
+            p.tree-sitter-typescript
             p.tree-sitter-dockerfile
             p.tree-sitter-php
             p.tree-sitter-python

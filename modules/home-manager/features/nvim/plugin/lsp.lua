@@ -63,3 +63,8 @@ require('lspconfig').phpactor.setup {
 	capabilities = capabilites,
 }
 
+require('lspconfig').ts_ls.setup {
+	on_attach = on_attach,
+	capabilities = capabilites,
+}
+
