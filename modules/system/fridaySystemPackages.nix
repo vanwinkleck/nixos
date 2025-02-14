@@ -5,6 +5,8 @@
     mangohud
     gamescope
 
+    neovim
+
     gcc
     clang
     clang-tools
@@ -24,6 +26,13 @@
     mysql_jdbc
 
     memtester
+
+    # Remove this when i get neovim working in shells
+    cmake
+    glfw
+    lua
+    glm
+    gcc
 
    # --Hyprland stuff--
     #waybar

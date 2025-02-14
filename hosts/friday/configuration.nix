@@ -147,7 +147,7 @@
       lutris
       obs-studio
       krita
-    ];
+     ];
   };
 
   home-manager = {

@@ -10,7 +10,6 @@
     ./features/discord.nix
     ./features/zsh.nix
     ./features/git.nix
-    ./features/nvim/neovim.nix
  	];
 
 
