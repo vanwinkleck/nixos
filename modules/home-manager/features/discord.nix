@@ -34,7 +34,7 @@
       };
     config = {
       themeLinks = [
-        "https://raw.githubusercontent.com/KillYoy/DiscordNight/master/DiscordNight.theme.css"
+        "https://raw.githubusercontent.com/Dyzean/Tokyo-Night/main/themes/tokyo-night.theme.css"
      ];
      frameless = false;
       
