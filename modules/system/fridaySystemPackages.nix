@@ -17,6 +17,8 @@
     lua
     luajit
 
+    wl-clipboard
+
     php
     phpunit
 

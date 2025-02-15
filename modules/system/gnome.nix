@@ -18,6 +18,7 @@
     pkgs.gnome-tweaks
     pkgs.kanagawa-gtk-theme
     pkgs.kanagawa-icon-theme
+    pkgs.tokyonight-gtk-theme
   ];
 
 }

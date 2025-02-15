@@ -12,4 +12,4 @@
 
 > Look into specialization -> https://nixos.wiki/wiki/Specialisation
 
-> Set up neovim keybindings (telescope, etc)
+> Get nvf config working in my shells (flakes)
