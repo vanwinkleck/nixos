@@ -5,7 +5,7 @@
     ghostty
     qbittorrent
     nicotine-plus
-    htop
+    btop
     makemkv
 
     oh-my-zsh

@@ -9,6 +9,23 @@
     ];
 
     settings = {
+
+       "$terminal" = "ghostty";
+       "$fileManager" = "dolphin";
+       "$mod" = "SUPER";
+
+      bindm = [
+        "$mod, mouse:272, movewindow"
+        "$mod, mouse:273, resizewindow"
+        "$mod ALT, mouse:272, resizewindow"
+      ];
+
+      bind = [
+        "mod, E, exec, ghostty"
+        "mod, Q, killactive"
+        "mod, V, togglefloating"
+        "mod, R, exec, rofi-wayland"
+      ];
       "plugin:borders-plus-plus" = {
         add_borders = 1; # 0 - 9
 
@@ -22,6 +39,7 @@
 
         # makes outer edges match rounding of the parent. Turn on / off to better understand. Default = on.
         natural_rounding = "yes";
+
       };
     };
   };
