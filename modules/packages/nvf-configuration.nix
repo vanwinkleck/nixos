@@ -1,10 +1,10 @@
-{pkgs, lib, ...}: {
+{ ... }: {
 
   vim = {
     theme = {
       enable = true;
       name = "tokyonight";
-      style = "storm";
+      style = "moon";
     };
 
       filetree.nvimTree.setupOpts.view.number = true;
@@ -18,7 +18,6 @@
         termguicolors = true;
         mouse = "a";
        #clipboard = "wl-clipboard";
-
       };
       
     statusline.lualine.enable = true;

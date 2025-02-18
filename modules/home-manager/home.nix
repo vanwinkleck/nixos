@@ -5,7 +5,7 @@
  	inputs.nix-colors.homeManagerModules.default
     ./packagesHome.nix
     #./features/ghostty.nix
-    #./features/hyprland.nix
+    # ./features/hyprland.nix
     ./features/librewolf.nix
     ./features/mpv.nix
     ./features/discord.nix
