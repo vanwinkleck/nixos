@@ -50,7 +50,7 @@
         crashHandler.enable = true;
         dearrow.enable = true;
         emoteCloner.enable = true;
-        fakeNitro.enable = true;
+        #fakeNitro.enable = true;
         favoriteGifSearch.enable = true;
         fixSpotifyEmbeds.enable = true;
         fixYoutubeEmbeds.enable = true;

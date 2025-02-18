@@ -19,6 +19,7 @@
 
     slack
     libreoffice
+    insomnia
 
     shotcut
 
