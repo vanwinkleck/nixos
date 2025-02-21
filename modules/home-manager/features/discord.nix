@@ -13,7 +13,7 @@
         (pkgs.makeDesktopItem {
           name = "vesktop";
           desktopName = "Discord";
-          exec = "vesktop --enable-features=VaapiIgnoreDriverChecks,VaapiVideoEncoder,VaapiVideoDecoder,CanvasOopRasterization,UseMultiPlaneFormatForHardwareVideo";
+          exec = "vesktop"; #"vesktop --enable-features=VaapiIgnoreDriverChecks,VaapiVideoEncoder,VaapiVideoDecoder,CanvasOopRasterization,UseMultiPlaneFormatForHardwareVideo";
           icon = "discord";
            startupWMClass = "VencordDesktop";
           genericName = "Internet Messenger";
@@ -43,11 +43,8 @@
         fixSpotifyEmbeds.enable = true;
         fixYoutubeEmbeds.enable = true;
         gifPaste.enable = true;
-        pictureInPicture.enable = true;
         translate.enable = true;
         typingIndicator.enable = true;
-        userVoiceShow.enable = true;
-        voiceMessages.enable = true;
         volumeBooster.enable = true;
         whoReacted.enable = true;
         youtubeAdblock.enable = true;
