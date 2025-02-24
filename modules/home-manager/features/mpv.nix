@@ -29,7 +29,7 @@
 	
 	#Turns on software rendering for screenshots
 	#Faster, but might lack stuff like HDR
-    screenshot-sw= "yes";
+  #screenshot-sw= "yes";
 
 	#Output format of screenshots
 	screenshot-format = "png";

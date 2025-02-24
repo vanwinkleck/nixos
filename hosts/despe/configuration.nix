@@ -96,7 +96,7 @@
 	#driSupport32Bit = true;
   };
 
-  # services.xserver.videoDrivers = ["amdgpu"];
+  #services.xserver.videoDrivers = ["amdgpu"];
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
