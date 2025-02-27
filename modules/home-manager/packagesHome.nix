@@ -20,6 +20,8 @@
     slack
     libreoffice
     insomnia
+    dbeaver-bin
+
 
     shotcut
 
