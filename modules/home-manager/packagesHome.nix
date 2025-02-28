@@ -8,6 +8,8 @@
     btop
     makemkv
 
+    brave
+
     oh-my-zsh
     starship
     tldr
