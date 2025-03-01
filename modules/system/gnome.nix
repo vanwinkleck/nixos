@@ -14,6 +14,7 @@
     user-themes
     toggle-headphone
     appindicator
+    disk-usage
 
     pkgs.gnome-tweaks
     pkgs.kanagawa-gtk-theme

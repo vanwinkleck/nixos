@@ -4,7 +4,7 @@
   
   programs.nixcord = {
     enable = true;
-     discord.vencord.unstable = true;
+    #discord.vencord.unstable = true;
      discord.enable = true;
       vesktop = {
       enable = false;
