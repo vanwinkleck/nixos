@@ -1,16 +1,5 @@
-{ config, pkgs, ... }:
+{ config, ... }:
 {
-
-#home.packages = with pkgs; 
-  #    [
-  #    oh-my-posh
-  #  ];
-
-  #programs.oh-my-posh = {
-  #  enable = true;
-  #  useTheme = "pure";
-  #};
-
 
 programs.zsh = {
   enable = true;
@@ -34,9 +23,8 @@ programs.zsh = {
 
 
       # Navigation
-      edits = "cd /mnt/makima/Edits/";
-      record = "cd /mnt/makima/Recordings/";
-      dot = "cd /home/rip/.config/";
+      edits = "cd /mnt/reze/Edits/";
+      record = "cd /mnt/reze/Recordings/";
       config = "cd /home/rip/nixos/";
 
       # Git commands
