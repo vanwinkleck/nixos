@@ -9,6 +9,7 @@
     makemkv
 
     brave
+    librewolf
 
     oh-my-zsh
     starship
