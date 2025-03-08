@@ -9,7 +9,8 @@
     makemkv
 
     brave
-    librewolf
+    floorp
+    #librewolf
 
     oh-my-zsh
     starship
@@ -29,6 +30,8 @@
     shotcut
 
     openmw
+
+    papirus-icon-theme
  
   ];
 }
