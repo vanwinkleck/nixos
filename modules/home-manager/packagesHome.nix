@@ -8,9 +8,7 @@
     btop
     makemkv
 
-    brave
     floorp
-    #librewolf
 
     oh-my-zsh
     starship
@@ -26,10 +24,10 @@
     insomnia
     dbeaver-bin
 
-
     shotcut
 
     openmw
+    prismlauncher
 
     papirus-icon-theme
  

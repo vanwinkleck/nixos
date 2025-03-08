@@ -140,8 +140,6 @@
 
   services.xserver.videoDrivers = ["amdgpu"];
 
-  # Enable touchpad support (enabled default in most desktopManager).
-  # services.xserver.libinput.enable = true;
   programs.zsh.enable = true;
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.rip = {
@@ -159,7 +157,7 @@
   home-manager = {
   	extraSpecialArgs = { inherit inputs; };
 	users = {
-		"rip" = import ../../modules/home-manager/home.nix;
+		"rip" = import ../../modules/home-manager/fridayHome.nix;
 		};
 	};
 
