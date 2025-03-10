@@ -9,6 +9,7 @@
     makemkv
 
     floorp
+    librewolf
 
     oh-my-zsh
     starship
