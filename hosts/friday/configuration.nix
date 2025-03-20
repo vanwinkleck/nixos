@@ -150,7 +150,6 @@
     packages = with pkgs; [
       lutris
       obs-studio
-      krita
      ];
   };
 

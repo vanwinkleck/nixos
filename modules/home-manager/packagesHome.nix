@@ -16,6 +16,7 @@
     tldr
 
     anki
+    gimp
 
     komikku
     strawberry
