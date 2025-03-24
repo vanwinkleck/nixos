@@ -1,4 +1,4 @@
-{ inputs, ... }:
+{ inputs, pkgs, ... }:
 
 {
  imports = [
@@ -44,6 +44,12 @@
     #   org.gradle.daemon.idletimeout=3600000
     # '';
   };
+
+  home.packages = with pkgs; [
+    shotcut
+    openmw
+    makemkv
+  ];
 
   # Home Manager can also manage your environment variables through
   # 'home.sessionVariables'. These will be explicitly sourced when using a

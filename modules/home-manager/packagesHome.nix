@@ -6,7 +6,6 @@
     qbittorrent
     nicotine-plus
     btop
-    makemkv
 
     floorp
     librewolf
@@ -26,9 +25,6 @@
     insomnia
     dbeaver-bin
 
-    shotcut
-
-    openmw
     prismlauncher
 
     papirus-icon-theme
