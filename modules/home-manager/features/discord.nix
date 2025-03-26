@@ -5,9 +5,8 @@
   programs.nixcord = {
     enable = true;
     #discord.vencord.unstable = true;
-     discord.enable = true;
       vesktop = {
-      enable = false;
+      enable = true;
       package = pkgs.vesktop.overrideAttrs (oldAttrs: {
       desktopItems = [
         (pkgs.makeDesktopItem {
@@ -15,19 +14,6 @@
           desktopName = "Discord";
           exec = "vesktop --enable-features=VaapiIgnoreDriverChecks,VaapiVideoEncoder,VaapiVideoDecoder,CanvasOopRasterization,UseMultiPlaneFormatForHardwareVideo";
           icon = "discord";
-           startupWMClass = "VencordDesktop";
-          genericName = "Internet Messenger";
-     keywords = [
-             "discord"
-             "vencord"
-             "electron"
-            "chat"
-          ];
-           categories = [
-            "Network"
-            "InstantMessaging"
-            "Chat"
-           ];
           })
        ];
       });
@@ -36,7 +22,8 @@
       themeLinks = [
         "https://raw.githubusercontent.com/Dyzean/Tokyo-Night/main/themes/tokyo-night.theme.css"
       ];
-      
+      frameless = true;
+
       plugins = {
         betterUploadButton.enable = true;
         clearURLs.enable = true;
