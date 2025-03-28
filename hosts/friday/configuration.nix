@@ -9,9 +9,9 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
-      ../../modules/system/sshd.nix
       ../../modules/system/fonts.nix
       ../../modules/system/virtualisation.nix
+      ../../modules/system/sshd.nix
       ../../modules/system/ollama.nix
       ../../modules/system/steam.nix
       ../../modules/system/disks.nix
@@ -180,21 +180,21 @@
   # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
-    services.openssh = {
-    enable = true;
-    ports = [ 99 ];
-    settings = {
-      PasswordAuthentication = false;
-      AllowUsers = [ "rip" ];
-      PermitRootLogin = "no";
-    };
-  };
+  #services.openssh = {
+  #  enable = true;
+  #  ports = [ 99 ];
+  #  settings = {
+  #   PasswordAuthentication = false;
+  #   AllowUsers = [ "rip" ];
+  #   PermitRootLogin = "no";
+  # };
+  #};
 
   # Open ports in the firewall.
   #networking.firewall.allowedTCPPorts = [ 99 ];
   #networking.firewall.allowedUDPPorts = [ 99 ];
   # Or disable the firewall altogether.
-  # networking.firewall.enable = false;
+  #networking.firewall.enable = false;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
