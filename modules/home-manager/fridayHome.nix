@@ -1,4 +1,4 @@
-{ inputs, pkgs, config, ... }:
+{ inputs, pkgs, ... }:
 
 {
  imports = [
@@ -37,11 +37,6 @@
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
     # # symlink to the Nix store copy.
     # ".screenrc".source = dotfiles/screenrc;
-
-    # Work on this to get dotfiles to laptop
-    #   ".config/starship" = {
-    #  source = config.lib.file.mkOutOfStoreSymlink "/home/rip/.config/starship.toml";
-    #};
 
     # # You can also set the file content immediately.
     # ".gradle/gradle.properties".text = ''
