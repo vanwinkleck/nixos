@@ -7,8 +7,6 @@ programs.zsh = {
   autosuggestion.enable = true;
   syntaxHighlighting.enable = true;
 
-   
-
    shellAliases = {
       # Misc
       ll = "ls -l";
@@ -20,7 +18,6 @@ programs.zsh = {
       uflake = "sudo nix flake update";
       ncg = "sudo nix-collect-garbage";
       opt = "sudo nix store optimise";
-
 
       # Navigation
       edits = "cd /mnt/reze/Edits/";
@@ -36,21 +33,17 @@ programs.zsh = {
       dcdv = "docker-compose down -v";
       dcud = "docker-compose up -d";
 
-
       # work
       tif = "nmcli con up Tif.AI-Copelan";
     };
-
       history = {
       size = 10000;
       path = "${config.xdg.dataHome}/zsh/history";
    };
-
     oh-my-zsh = {
       enable = true;
       theme = "gallois";
       plugins = ["git" "starship" "ufw" "tldr"];
-
     };  
   };
 }

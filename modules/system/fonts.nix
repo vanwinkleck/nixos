@@ -6,9 +6,9 @@
   	fira-code
   	fira-code-symbols
   	mplus-outline-fonts.githubRelease
-	cherry
+	  cherry
     nerd-fonts.jetbrains-mono
     nerd-fonts.fira-code
-	cozette
+  	cozette
   ];
 }

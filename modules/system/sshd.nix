@@ -2,7 +2,7 @@
 {
   services.openssh = {
     enable = true;
-    ports = [ 2222 ];
+    ports = [ 99 ];
     settings = {
       PasswordAuthentication = false;
       AllowUsers = [ "rip" ];
