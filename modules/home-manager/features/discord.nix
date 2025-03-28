@@ -5,9 +5,9 @@
   programs.nixcord = {
     enable = true;
     #discord.vencord.unstable = true;
-     discord.enable = true;
+     discord.enable = false;
       vesktop = {
-      enable = false;
+      enable = true;
       package = pkgs.vesktop.overrideAttrs (oldAttrs: {
       desktopItems = [
         (pkgs.makeDesktopItem {
