@@ -9,6 +9,7 @@
 
     floorp
     librewolf
+    tor-browser
 
     oh-my-zsh
     starship
