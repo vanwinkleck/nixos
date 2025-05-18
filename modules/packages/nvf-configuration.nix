@@ -9,7 +9,6 @@
 
       filetree.nvimTree.setupOpts.view.number = true;
       filetree.nvimTree.setupOpts.view.relative.number = true;
-      useSystemClipboard = true;
 
       options = {
         tabstop = 2;
@@ -17,7 +16,7 @@
         updatetime = 300;
         termguicolors = true;
         mouse = "a";
-       #clipboard = "wl-clipboard";
+       # clipboard.append = "wl-clipboard";
       };
       
     statusline.lualine.enable = true;
